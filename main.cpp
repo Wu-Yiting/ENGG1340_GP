@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    int iq,pressure,parent_satisf;
+    int ;
     startgame();
     
 }
