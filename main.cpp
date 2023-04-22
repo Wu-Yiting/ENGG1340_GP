@@ -2,6 +2,13 @@
 #include "game.h"
 using namespace std;
 
+bool game_end = false;
+int ending = -1;
+int game_stage = 1;
+bool main_exam = false;
+int school_informs = -1;
+int IQ,pressure,parent_satisf;
+
 int main(){
     startgame();
     while (not game_end){
