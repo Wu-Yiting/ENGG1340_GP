@@ -1,3 +1,5 @@
+#include <iostream>
+using namespace std;
 #ifndef GAME_H
 #define GAME_H
 
@@ -5,6 +7,7 @@ bool game_end = false;
 int ending = -1;
 int game_stage = 1;
 bool main_exam = false;
+int school_informs = -1;
 
 void startgame();
 void options_1(int $IQ,int $pressure,int $parent_satisf);
