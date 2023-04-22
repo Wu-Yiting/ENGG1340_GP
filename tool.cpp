@@ -22,7 +22,15 @@ void output(string s){
     cout << std::unitbuf;
     for (int i = 0;i<s.length();i++){
         cout << s[i];
-        std::this_thread::sleep_for(std::chrono::milliseconds(100)); 
+        std::this_thread::sleep_for(std::chrono::milliseconds(25)); 
+        }
+}
+
+void output_slow(string s){
+    cout << std::unitbuf;
+    for (int i = 0;i<s.length();i++){
+        cout << s[i];
+        std::this_thread::sleep_for(std::chrono::milliseconds(70)); 
         }
 }
 
@@ -36,4 +44,8 @@ int inputting(string ss){
         cout << "Invalid input, please try angain" << endl;
     }
     return 0;
+}
+
+void Delay(int n){
+    std::this_thread::sleep_for(std::chrono::milliseconds(n));
 }
