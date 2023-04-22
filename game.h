@@ -26,7 +26,6 @@ void exam_1(int &IQ,int &pressure,int &parent_satisf);
 void exam_2(int &IQ,int &pressure,int &parent_satisf);
 void exam_3(int &IQ,int &pressure,int &parent_satisf);
 void game_ending(int ending);
-void Delay(int time);
 void output(string s);
 int change_input(string input);
 bool valid(string input,string a);
