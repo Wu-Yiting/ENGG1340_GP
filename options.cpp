@@ -3,6 +3,8 @@
 using namespace std;
 
 void options_1(){
+    cout << "==========================" << endl;
+    cout << endl;
     output("Your age: ");
     cout << age;
     output(" Month: ");
