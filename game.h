@@ -1,11 +1,16 @@
+#ifndef GAME_H
+#define GAME_H
 #include <iostream>
 #include <stdlib.h>
+#include <unistd.h>
 #include <time.h>
 #include <ctime>
 #include <string>
+#include <sstream>
+#include <chrono>
+#include <thread>
 using namespace std;
-#ifndef GAME_H
-#define GAME_H
+
 
 extern bool game_end;
 extern int ending;
@@ -23,6 +28,7 @@ void exam_2(int &IQ,int &pressure,int &parent_satisf);
 void exam_3(int &IQ,int &pressure,int &parent_satisf);
 void game_ending(int ending);
 void Delay(int time);
+void output(string s);
 int change_input(string input);
 bool valid(string input,string a);
 
