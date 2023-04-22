@@ -26,7 +26,5 @@ void study(int stage){
     Delay(500);
     cout << "The Parent Satisfication+" << parent_satisf - c << endl;
     Delay(500);
-    cout << "==========================" << endl;
-    cout << endl;
 
 }
