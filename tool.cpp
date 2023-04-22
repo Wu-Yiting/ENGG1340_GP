@@ -2,11 +2,6 @@
 #include "game.h"
 using namespace std;
 
-/*void Delay(int time){
-    clock_t now = clock(); 
-    while(clock()-now<time); 
-}*/
-
 bool valid(string input,string a){
     if (input.length()>1){
         return false;
