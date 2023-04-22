@@ -7,33 +7,12 @@ int ending = -1;
 int game_stage = 1;
 bool main_exam = false;
 int school_informs = -1;
-int IQ,pressure,parent_satisf;
+int IQ=20,pressure=0,parent_satisf=100;
+int age=9,month=1;
 
 int main(){
     startgame();
-    while (not game_end){
-        if (game_stage == 1){
-            options_1(IQ,pressure,parent_satisf);
-        }
-        else if (game_stage == 2){
-            options_2(IQ,pressure,parent_satisf);
-        }
-        else if (game_stage == 3){
-            options_3(IQ,pressure,parent_satisf);
-        }
-        if (game_end) break;
-        if (main_exam){
-            if (game_stage == 1){
-                exam_1(IQ,pressure,parent_satisf);
-            }
-            else if (game_stage == 2){
-                exam_2(IQ,pressure,parent_satisf);
-            }
-            else if (game_stage == 3){
-                exam_3(IQ,pressure,parent_satisf);
-            }
-        }  
-    }
+    rungame();
     game_ending(ending);
     return 0;
 }
