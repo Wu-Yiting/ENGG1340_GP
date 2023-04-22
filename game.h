@@ -11,7 +11,6 @@
 #include <thread>
 using namespace std;
 
-
 extern bool game_end;
 extern int ending;
 extern int game_stage;
