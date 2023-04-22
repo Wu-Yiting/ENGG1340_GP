@@ -3,8 +3,6 @@
 using namespace std;
 
 int main(){
-    int IQ,pressure,parent_satisf;
-
     startgame();
     while (not game_end){
         if (game_stage == 1){
