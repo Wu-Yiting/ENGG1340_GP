@@ -1,5 +1,8 @@
 #include <iostream>
-#include <cstdlib>
+#include <stdlib.h>
+#include <time.h>
+#include <ctime>
+#include <string>
 using namespace std;
 #ifndef GAME_H
 #define GAME_H
@@ -19,5 +22,8 @@ void exam_1(int &IQ,int &pressure,int &parent_satisf);
 void exam_2(int &IQ,int &pressure,int &parent_satisf);
 void exam_3(int &IQ,int &pressure,int &parent_satisf);
 void game_ending(int ending);
+void Delay(int time);
+int change_input(string input);
+bool valid(string input,string a);
 
 #endif
