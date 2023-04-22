@@ -11,7 +11,7 @@ int IQ,pressure,parent_satisf;
 
 int main(){
     startgame();
-    /*while (not game_end){
+    while (not game_end){
         if (game_stage == 1){
             options_1(IQ,pressure,parent_satisf);
         }
@@ -34,6 +34,6 @@ int main(){
             }
         }  
     }
-    game_ending(ending);*/
+    game_ending(ending);
     return 0;
 }
