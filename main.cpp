@@ -27,8 +27,7 @@ int main(){
             else if (game_stage == 3){
                 exam_3(IQ,pressure,parent_satisf);
             }
-        }
-           
+        }  
     }
     game_ending(ending);
 }
