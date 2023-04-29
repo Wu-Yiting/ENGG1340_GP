@@ -16,7 +16,7 @@ extern int ending,age,month;
 extern int game_stage;
 extern bool main_exam;
 extern int school_informs;
-extern int IQ,pressure,parent_satisf;
+extern int IQ,pressure,parent_satisf,unlucky;
 
 void startgame();
 void options_1();
