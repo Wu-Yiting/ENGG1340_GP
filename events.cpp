@@ -28,3 +28,14 @@ void study(int stage){
     Delay(500);
 
 }
+
+void rest(){
+    srand(time(nullptr));
+    int seed;
+    seed = rand() % 100;
+    if (seed >= 75){
+        cout << "Your got a really good rest with a sweet dream!" << endl;
+        Delay(500);
+        
+    }
+}
