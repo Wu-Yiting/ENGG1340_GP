@@ -11,7 +11,7 @@ void options_1(){
     cout << month << endl;
     output("Options:");
     cout << endl; 
-    output("1.Study 2.Rest/Activities 3.Special events");
+    output("1.Study 2.Rest 3.Special events");
     cout << endl;
     output("Your IQ:");
     cout << IQ;
