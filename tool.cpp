@@ -41,7 +41,7 @@ int inputting(string ss){
         if (valid(input_n,ss)){
             return change_input(input_n);
         }
-        cout << "Invalid input, please try angain" << endl;
+        cout << "Invalid input, please try angain!" << endl;
     }
     return 0;
 }
