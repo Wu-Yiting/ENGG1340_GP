@@ -21,6 +21,6 @@ void startgame(){
         if (valid(input_1,"Y")){
             break;
         }
-        cout << "Invalid input, please try angain" << endl;
+        cout << "Invalid input, please try angain!" << endl;
     }
 }
