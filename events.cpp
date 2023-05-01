@@ -72,7 +72,7 @@ void rest(){
     }
     cout << "Your IQ+" << IQ - IQ_1 << endl;
     Delay(500);
-    cout << "Your Pressure+"<< pressure - pressure_1 << endl;
+    cout << "Your Pressure-"<< pressure_1 - pressure << endl;
     Delay(500);
 
 }
