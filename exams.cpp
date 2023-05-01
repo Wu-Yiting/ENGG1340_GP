@@ -20,4 +20,5 @@ void exam_1(){
         }
         cout << "Invalid input, please try angain!" << endl;
     }
+    
 }
