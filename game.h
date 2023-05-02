@@ -9,7 +9,15 @@
 #include <string>
 #include <chrono>
 #include <thread>
+#include <iomanip>
 using namespace std;
+
+class question{
+    public:
+        string Qs1;
+        string Qs2;
+        string ans;
+};
 
 extern bool game_end;
 extern int ending,age,month;
@@ -17,8 +25,10 @@ extern int game_stage;
 extern bool main_exam;
 extern int school_informs;
 extern int IQ,pressure,parent_satisf,unlucky;
+extern question ques_1[];
 
 void startgame();
+void initialize();
 void options_1();
 void options_2();
 void options_3();
