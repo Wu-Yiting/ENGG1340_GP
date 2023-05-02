@@ -11,6 +11,7 @@ int IQ=20,pressure=0,parent_satisf=100,unlucky = 0;
 int age=9,month=1;
 
 int main(){
+    initialize();
     startgame();
     rungame();
     game_ending(ending);
