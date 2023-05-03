@@ -1,11 +1,11 @@
 #include <iostream>
 #include "game.h"
-using namespace std;
 using namespace chrono;
 
 void exam_1(){
     string input_3;
     int number,score;
+    int diffi=4;
     score = 0;
     cout << "===========================" << endl;
     Delay(300);
@@ -25,9 +25,18 @@ void exam_1(){
         }
         cout << "Invalid input, please try angain!" << endl;
     }
+    if ((IQ>=0) && (IQ<15)){
+        diffi = 4;
+    }else if ((IQ>=15) && (IQ<30)){
+        diffi = 3;
+    }else if ((IQ>=30) && (IQ<45)){
+        diffi = 2;
+    }else if ((IQ>=45)){
+        diffi = 1;
+    }
     for (int i=0; i<=10; i++){
         srand(time(nullptr));
-        number = rand() % 10;
+        number = rand() % (diffi*10 - 1) + diffi*10 - 10;
         cout << endl <<  "==========================" << endl;
         output(ques_1[i].Qs1);cout<<endl;
         output(ques_1[i].Qs2);cout<<endl;
