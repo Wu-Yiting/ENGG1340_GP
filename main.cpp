@@ -2,7 +2,7 @@
 #include "game.h"
 using namespace std;
 
-bool game_end = false;
+bool game_end = false,if_hobby = false;
 int ending = -1;
 int game_stage = 1;
 bool main_exam = false;
