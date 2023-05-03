@@ -26,10 +26,10 @@ void options_1(){
     if (input_2 == 1){
         study(game_stage);
     }else if (input_2 == 2){
-       rest();
+        rest();
     }
     else if (input_2 == 3){
-       special_events();
+        special_events();
     }
 }
 
