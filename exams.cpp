@@ -1,5 +1,6 @@
 #include <iostream>
 #include "game.h"
+using namespace std;
 using namespace chrono;
 
 void exam_1(){
