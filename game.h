@@ -19,7 +19,7 @@ class question{
         string ans;
 };
 
-extern bool game_end;
+extern bool game_end,if_hobby;
 extern int ending,age,month;
 extern int game_stage;
 extern bool main_exam;
@@ -38,6 +38,7 @@ void exam_3();
 void study(int stage);
 void rest();
 void special_events();
+void hobby();
 void game_ending(int ending);
 void output(string s);
 void output_slow(string s);
