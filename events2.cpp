@@ -5,3 +5,7 @@ using namespace std;
 void special_events(){
     
 }
+
+void hobby(){
+    
+}
