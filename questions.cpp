@@ -3,6 +3,8 @@
 using namespace std;
 
 question ques_1[100];
+question ques_2[100];
+question ques_3[100];
 
 void initialize(){
     ques_1[0].Qs1 = "1+1 = ?";
