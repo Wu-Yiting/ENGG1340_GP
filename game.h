@@ -25,7 +25,7 @@ extern int game_stage;
 extern bool main_exam;
 extern int school_informs;
 extern int IQ,pressure,parent_satisf,unlucky;
-extern question ques_1[];
+extern question ques_1[],ques_2[],ques_3[];
 
 void startgame();
 void initialize();
