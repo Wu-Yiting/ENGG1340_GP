@@ -115,17 +115,17 @@ void initialize(){
     ques_1[27].Qs2 = "a.0.67x   b.x-33x   c.0.33x   d.x-33";
     ques_1[27].ans = "a";
 
-    ques_1[28].Qs1 = "";
-    ques_1[28].Qs2 = "";
-    ques_1[28].ans = "";
+    ques_1[28].Qs1 = "n-type semiconductor is an example of";
+    ques_1[28].Qs2 = "a. extrinsic semiconductor   b.intrinsic semiconductor   c.super conductor   d.insulator";
+    ques_1[28].ans = "a";
 
-    ques_1[29].Qs1 = "";
-    ques_1[29].Qs2 = "";
-    ques_1[29].ans = "";
+    ques_1[29].Qs1 = "What is the formula of iron(III) oxide?";
+    ques_1[29].Qs2 = "a.FeO   b.Fe2O3   c.Fe3O2   d.FeO3";
+    ques_1[29].ans = "b";
 
-    ques_1[30].Qs1 = "";
-    ques_1[30].Qs2 = "";
-    ques_1[30].ans = "";
+    ques_1[30].Qs1 = "Jerry is a judge. He hears 5 cases every 19/8 hours. How many cases does he hear per hour on average?";
+    ques_1[30].Qs2 = "a.19/40   b.8/95   c.40/19   d.95/8";
+    ques_1[30].ans = "c";
 
     ques_1[31].Qs1 = "";
     ques_1[31].Qs2 = "";
