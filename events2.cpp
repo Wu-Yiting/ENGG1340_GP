@@ -4,7 +4,7 @@ using namespace std;
 
 void special_events(){
     int ran;
-    if (gmae_stage != 1){
+    if (game_stage != 1){
         if (not if_hobby){
             srand(time(nullptr));
             ran = rand() % 4 + 1;
