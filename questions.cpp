@@ -83,4 +83,7 @@ void initialize(){
     ques_1[19].Qs2 = "a.6   b.3   c.7   d.8";
     ques_1[19].ans = "a";
 
+    ques_1[20].Qs1 = "Solve for x: 12/7=10/x. x = ?";
+    ques_1[20].Qs2 = "a.35/6   b.120/7   c.6/35   d.4.83";
+    ques_1[20].ans = "a";
     }
