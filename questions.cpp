@@ -193,3 +193,4 @@ void initialize(){
     ques_3[24].Qs1 = "The immediate cause for World War One is?";
     ques_3[24].Qs2 = "a.The assassination of Archduke Francis Ferdinand    b.The imprisonment of Lenin   c.The ambition of America to dominate the world   d.The sudden death of Lloyd George";
     ques_3[24].ans = "a";
+    }
