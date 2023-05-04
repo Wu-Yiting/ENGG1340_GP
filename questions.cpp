@@ -46,4 +46,6 @@ void initialize(){
     ques_1[9].Qs1 = "0*12 = ?";
     ques_1[9].Qs2 = "a.120   b.12   c.-1  d.0";
     ques_1[9].ans = "d";
+
+    ques_1[10].Qs1 = 
 }
