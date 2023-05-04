@@ -73,12 +73,10 @@ void special_events(){
         if (bob){
             output("One day after school, your friend Bob invite you to play video game at his home.");cout<<endl;
             output("You Said:");cout<<endl;
+            Delay(500);
             cout << "1.Sorry, my mom don't allow me to play the video game." << endl;
-            Delay(500);
-            cout << "2.Yes, let's go!" << endl;
-            Delay(500);
-            cout << "3.No." << endl;
-            Delay(500);
+            cout << "2.Yes, let's go!" << endl;           
+            cout << "3.No." << endl;         
             input = inputting("123");
             if (input == 1){
                 output("Bob: Okay, bye.");cout<<endl;
@@ -116,10 +114,9 @@ void special_events(){
             output("After you lose your friend Bob, you meet another friend Tom."); cout << endl;
             output("This time he want you to come to his home and study together."); cout << endl;
             output("You said: "); cout << endl;
+            Delay(500);
             cout << "1.Let's go, I love study!" << endl;
-            Delay(500);
             cout << "2.Sorry, I want to rest." << endl;
-            Delay(500);
             input = inputting("12");
             if (input = 1){
                 output("You study with Tom until midnight."); cout << endl;
@@ -150,6 +147,7 @@ void special_events(){
     if ((ran > 20) && (ran <= 50)){
         output("You get into a small shop."); cout << endl;
         output("Here are the product list:"); cout << endl;
+        Delay(500);
         cout << "Your money:" << money << endl;
         cout << "1.Erase (fix one of the mistake in your exam) 20$" << endl;
         cout << "2.Clock (increase 2s in your answering time) 50$" << endl;
@@ -188,6 +186,52 @@ void special_events(){
                 }else{
                     cout << "You don't have enough money." << endl;
                 }
+            }
+        }
+    }
+    if ((ran > 50) && (ran <= 60)){
+        output("Your parents want you to clean the house."); cout << endl;
+        output("You said:"); cout << endl;
+        Delay(500);
+        cout << "1.Yes, I will do." << endl;
+        cout << "2.I don't want to, I want to rest." << endl;
+        input = inputting("12");
+        if (input == 1){
+            cout << "Your parents praised you and give you some pocket money!" << endl;
+            parent_satisf = parent_satisf + 10;
+            if (parent_satisf > 100){
+                parent_satisf = 100;
+            }
+            money = money + 10;
+            Delay(500);
+            cout << "Parent satisfication +" << parent_satisf - pa << endl;
+            Delay(500);
+            cout << "Money +" << money - m << endl;
+        }
+        if (input = 2){
+            cout << "Your parents seems disappointed." << endl;
+            parent_satisf = parent_satisf - 5;
+            if (parent_satisf < 0){
+                parent_satisf = 0;
+                game_end = true;
+                ending = 2;
+            }
+            pressure = pressure - 10;
+        }
+    }
+    if ((ran >= 60) && (ran < 80)){
+        output("You find 10$ on the road."); cout << endl;
+        output("You choose:"); cout << endl;
+        Delay(500);
+        cout << "1.Give to the police." << endl;
+        cout << "2.Take it away." << endl;
+        input = inputting("12");
+        if (input == 1){
+            output("The police praised you and give you a red flower."); cout << endl;
+            output("Your 'Lucky'(hidden value) increased a lot"); cout << endl;
+            unlucky = unlucky - 10;
+            if (unlucky < -5){
+                unlucky = -5;
             }
         }
     }
