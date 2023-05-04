@@ -16,7 +16,7 @@ void exam_1(){
     Delay(300);
     output_slow("The difficulty of the exam is determined by your IQ value.");cout<<endl;
     Delay(300);
-    output_slow("The score of the exam will affect which middle school you will get in.");cout<<endl;
+    output_slow("You can get into the middle school only if your score is higher than 60.");cout<<endl;
     Delay(300);
     output_slow("Good luck! Enter 'Y' to start the exam.");cout<<endl;
     while (true){
@@ -88,7 +88,7 @@ void exam_2(){
     Delay(300);
     output_slow("The difficulty of the exam is determined by your IQ value.");cout<<endl;
     Delay(300);
-    output_slow("The score of the exam will affect which school you will get in.");cout<<endl;
+    output_slow("You can get into the high school only if your score is higher than 60.");cout<<endl;
     Delay(300);
     output_slow("Good luck! Enter 'Y' to start the exam.");cout<<endl;
     while (true){
@@ -160,7 +160,7 @@ void exam_3(){
     Delay(300);
     output_slow("The difficulty of the exam is determined by your IQ value.");cout<<endl;
     Delay(300);
-    output_slow("The score of the exam will affect which university you will get in.");cout<<endl;
+    output_slow("You can get into the university only if your score is higher than 60.");cout<<endl;
     Delay(300);
     output_slow("Good luck! Enter 'Y' to start the exam.");cout<<endl;
     while (true){
