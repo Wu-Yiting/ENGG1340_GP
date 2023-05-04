@@ -107,13 +107,13 @@ void initialize(){
     ques_1[25].Qs2 = "a.P-type semiconductors   b.N-type semiconductors   c.Insulators   d.Superconductors";
     ques_1[25].ans = "a";
 
-    ques_1[26].Qs1 = "";
-    ques_1[26].Qs2 = "";
-    ques_1[26].ans = "";
+    ques_1[26].Qs1 = "How many protons does 13C has?";
+    ques_1[26].Qs2 = "a.13   b.6   c.8   d.3";
+    ques_1[26].ans = "b";
 
-    ques_1[27].Qs1 = "";
-    ques_1[27].Qs2 = "";
-    ques_1[27].ans = "";
+    ques_1[27].Qs1 = "A new recipe contains 33percent less sodium than the old one. The old one contained x milligrams of sodium. Which expressions could represent the amount of sodium in the new recipe?";
+    ques_1[27].Qs2 = "a.0.67x   b.x-33x   c.0.33x   d.x-33";
+    ques_1[27].ans = "a";
 
     ques_1[28].Qs1 = "";
     ques_1[28].Qs2 = "";
