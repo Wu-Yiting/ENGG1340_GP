@@ -127,19 +127,43 @@ void initialize(){
     ques_1[30].Qs2 = "a.19/40   b.8/95   c.40/19   d.95/8";
     ques_1[30].ans = "c";
 
-    ques_1[31].Qs1 = "";
-    ques_1[31].Qs2 = "";
-    ques_1[31].ans = "";
+    ques_1[31].Qs1 = "During the First World War, which country signed the Peace Treaty(1917) with Germeny?";
+    ques_1[31].Qs2 = "a.England   b.USA   c.Russia   d.Austria";
+    ques_1[31].ans = "c";
 
-    ques_1[32].Qs1 = "";
-    ques_1[32].Qs2 = "";
-    ques_1[32].ans = "";
+    ques_1[32].Qs1 = "The immediate cause for World War One is?";
+    ques_1[32].Qs2 = "a.The assassination of Archduke Francis Ferdinand    b.The imprisonment of Lenin   c.The ambition of America to dominate the world   d.The sudden death of Lloyd George";
+    ques_1[32].ans = "a";
 
-    ques_1[33].Qs1 = "";
+    ques_1[33].Qs1 = "Two great Buddhist universities of Nalanda and Vikramshila";
     ques_1[33].Qs2 = "";
     ques_1[33].ans = "";
 
     ques_1[34].Qs1 = "";
     ques_1[34].Qs2 = "";
     ques_1[34].ans = "";
+
+    ques_1[31].Qs1 = "";
+    ques_1[31].Qs2 = "";
+    ques_1[31].ans = "";
+
+    ques_1[35].Qs1 = "";
+    ques_1[35].Qs2 = "";
+    ques_1[35].ans = "";
+
+    ques_1[36].Qs1 = "";
+    ques_1[36].Qs2 = "";
+    ques_1[36].ans = "";
+
+    ques_1[37].Qs1 = "";
+    ques_1[37].Qs2 = "";
+    ques_1[37].ans = "";
+
+    ques_1[38].Qs1 = "";
+    ques_1[38].Qs2 = "";
+    ques_1[38].ans = "";
+
+    ques_1[39].Qs1 = "";
+    ques_1[39].Qs2 = "";
+    ques_1[39].ans = "";
     }
