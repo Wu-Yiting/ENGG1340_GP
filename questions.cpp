@@ -87,11 +87,59 @@ void initialize(){
     ques_1[20].Qs2 = "a.35/6   b.120/7   c.6/35   d.4.83";
     ques_1[20].ans = "a";
 
-    ques_1[21].Qs1 = "How long does it approximately takes for a ball with no initial velocity to fall 5 meters?";
+    ques_1[21].Qs1 = "How long does it approximately takes for a ball with zero initial velocity to fall 5 meters?";
     ques_1[21].Qs2 = "a. 1 second   b. 0.5 second   c. 2 seconds   d. 0.2 second";
     ques_1[21].ans = "a";
 
     ques_1[22].Qs1 = "Which of the following has the largest density?";
     ques_1[22].Qs2 = "a.pure iron   b.steel   c.aluminium   d.sodium";
     ques_1[22].ans = "b";
+
+    ques_1[23].Qs1 = "Express 0.2824 as a fraction?";
+    ques_1[23].Qs2 = "a.353/1250   b.1412/2500   c.462/3000   d.888/7500";
+    ques_1[23].ans = "a";
+
+    ques_1[24].Qs1 = "All semiconductors in their last orbit have";
+    ques_1[24].Qs2 = "a.8 electrons   b.2 electrons   c.4 electrons   d.6 electrons";
+    ques_1[24].ans = "c";
+
+    ques_1[25].Qs1 = "Holes are majority carriers in";
+    ques_1[25].Qs2 = "a.P-type semiconductors   b.N-type semiconductors   c.Insulators   d.Superconductors";
+    ques_1[25].ans = "a";
+
+    ques_1[26].Qs1 = "";
+    ques_1[26].Qs2 = "";
+    ques_1[26].ans = "";
+
+    ques_1[27].Qs1 = "";
+    ques_1[27].Qs2 = "";
+    ques_1[27].ans = "";
+
+    ques_1[28].Qs1 = "";
+    ques_1[28].Qs2 = "";
+    ques_1[28].ans = "";
+
+    ques_1[29].Qs1 = "";
+    ques_1[29].Qs2 = "";
+    ques_1[29].ans = "";
+
+    ques_1[30].Qs1 = "";
+    ques_1[30].Qs2 = "";
+    ques_1[30].ans = "";
+
+    ques_1[31].Qs1 = "";
+    ques_1[31].Qs2 = "";
+    ques_1[31].ans = "";
+
+    ques_1[32].Qs1 = "";
+    ques_1[32].Qs2 = "";
+    ques_1[32].ans = "";
+
+    ques_1[33].Qs1 = "";
+    ques_1[33].Qs2 = "";
+    ques_1[33].ans = "";
+
+    ques_1[34].Qs1 = "";
+    ques_1[34].Qs2 = "";
+    ques_1[34].ans = "";
     }
