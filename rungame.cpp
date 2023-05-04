@@ -3,11 +3,10 @@
 using namespace std;
 
 void rungame(){
-    int round = 0;
     while (not game_end){
         if (game_stage == 1){
             options_1();
-            month = month + 1;
+            month = month + 2;
             if (month == 13){
                 month = 1;
                 age = age + 1;
