@@ -47,5 +47,40 @@ void initialize(){
     ques_1[9].Qs2 = "a.120   b.12   c.-1  d.0";
     ques_1[9].ans = "d";
 
-    ques_1[10].Qs1 = 
-}
+    ques_1[10].Qs1 = "123+321 = ?";
+    ques_1[10].Qs2 = "a.233   b.444   c.666   d.0";
+    ques_1[10].ans = "b";
+
+    ques_1[11].Qs1 = "Which one is not one of the five oceans?";
+    ques_1[11].Qs2 = "a.Pacific Ocean   b.Atlantic Ocean   c.Arctic Ocean   d.Baltic Sea";
+    ques_1[11].ans = "d";
+
+    ques_1[12].Qs1 = "Which one is not one of the Four Ancient Civilizations?";
+    ques_1[12].Qs2 = "a.Egypt   b.the Indus valley   c.Ancient China   d.Ancient Greece";
+    ques_1[13].ans = "d";
+
+    ques_1[14].Qs1 = "12*24 = ?";
+    ques_1[14].Qs2 = "a.144   b.188   c.244   d.288";
+    ques_1[14].ans = "d";
+
+    ques_1[15].Qs1 = "Who is the first president of the US?";
+    ques_1[15].Qs2 = "a.George Washington   b.Abraham Lincoln   c.Theodore Roosevelt   d.Thomas Jefferson";
+    ques_1[15].ans = "a";
+
+    ques_1[16].Qs1 = "Who is the presiednt of HKU for now?";
+    ques_1[16].Qs2 = "a.Dirk Schneiders   b.Xiang Zhang   c.Chim Tat Wing   d.Lee Ka-chiu";
+    ques_1[16].ans = "b";
+
+    ques_1[17].Qs1 = "What is the Standard atmosphere pressure?";
+    ques_1[17].Qs2 = "a.101325Pa   b.10000Pa   c.1000000Pa   d.98000Pa";
+    ques_1[17].ans = "a";
+
+    ques_1[18].Qs1 = "What is the second element of the periodic table of elemets?";
+    ques_1[18].Qs2 = "a.Oxygen   b.Nitrogeon   c.Helium   d.Hydrogen";
+    ques_1[18].ans = "c";
+
+    ques_1[19].Qs1 = "1+2*2+2/2 = ?";
+    ques_1[19].Qs2 = "a.6   b.3   c.7   d.8";
+    ques_1[19].ans = "a";
+
+    }
