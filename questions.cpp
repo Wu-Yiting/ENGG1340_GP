@@ -87,7 +87,11 @@ void initialize(){
     ques_1[20].Qs2 = "a.35/6   b.120/7   c.6/35   d.4.83";
     ques_1[20].ans = "a";
 
-    ques_1[21].Qs1 = "How long does it approximately takes for a ball with no initial velocity to fall 5 meters?"
-    ques_1[21].Qs2 = "a. 1 second   b. 0.5 second   c. 2 seconds   d. 0.2 second"
+    ques_1[21].Qs1 = "How long does it approximately takes for a ball with no initial velocity to fall 5 meters?";
+    ques_1[21].Qs2 = "a. 1 second   b. 0.5 second   c. 2 seconds   d. 0.2 second";
     ques_1[21].ans = "a";
+
+    ques_1[22].Qs1 = "Which of the following has the largest density?";
+    ques_1[22].Qs2 = "a.pure iron   b.steel   c.aluminium   d.sodium";
+    ques_1[22].ans = "b";
     }
