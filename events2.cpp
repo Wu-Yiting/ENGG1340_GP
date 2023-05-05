@@ -56,10 +56,10 @@ void special_events(){
                 month = 1;
                 age = age + 1;
             }
-            round = round + 2;
-            if (round == 10){
+            round1 = round1 + 2;
+            if (round1 == 10){
                 main_exam = true;
-                round = 0;
+                round1 = 0;
             }
         }
         if (ran1 == 3){
