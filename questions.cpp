@@ -231,24 +231,24 @@ void initialize(){
     ques_3[7].ans = "b";
 
     ques_3[8].Qs1 = "What is the national flower of USA?";
-    ques_3[8].Qs2 = "a.Rose   b.Dirk";
-    ques_3[8].ans = "";
+    ques_3[8].Qs2 = "a.Rose   b.Kit   c.Iris   d.Cornflower";
+    ques_3[8].ans = "a";
 
-    ques_3[9].Qs1 = "";
-    ques_3[9].Qs2 = "";
-    ques_3[9].ans = "";
+    ques_3[9].Qs1 = "2^6 = ?";
+    ques_3[9].Qs2 = "a.64   b.16   c.26   d.128";
+    ques_3[9].ans = "a";
 
-    ques_3[10].Qs1 = "";
-    ques_3[10].Qs2 = "";
-    ques_3[10].ans = "";
+    ques_3[10].Qs1 = "5! = ?";
+    ques_3[10].Qs2 = "a.5   b.120   c.24   d.720";
+    ques_3[10].ans = "b";
 
-    ques_3[11].Qs1 = "";
-    ques_3[11].Qs2 = "";
-    ques_3[11].ans = "";
+    ques_3[11].Qs1 = "How many kinds of Quarks are there in total?";
+    ques_3[11].Qs2 = "a.4   b.5   c.6   d.7";
+    ques_3[11].ans = "c";
 
-    ques_3[12].Qs1 = "";
-    ques_3[12].Qs2 = "";
-    ques_3[12].ans = "";
+    ques_3[12].Qs1 = "What is Avogadro constant?";
+    ques_3[12].Qs2 = "a.6.02*10^13   b.2.06*10^23   c.6.02*10^23   d. 2.06*10^13";
+    ques_3[12].ans = "c";
 
     ques_3[13].Qs1 = "";
     ques_3[13].Qs2 = "";
