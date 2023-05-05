@@ -52,63 +52,103 @@ void initialize(){
     ques_1[10].Qs2 = "a.233   b.444   c.666   d.0";
     ques_1[10].ans = "b";
 
-    ques_1[11].Qs1 = "";
-    ques_1[11].Qs2 = "";
-    ques_1[11].ans = "";
+    ques_1[11].Qs1 = "Do you like ENGG1340?";
+    ques_1[11].Qs2 = "a.Yes   b.No   c.No   d.No";
+    ques_1[11].ans = "a";
 
-    ques_1[12].Qs1 = "";
-    ques_1[12].Qs2 = "";
-    ques_1[12].ans = "";
+    ques_1[12].Qs1 = "Jim drove 768 miles of a 1200 miles journey. How many more miles are left?";
+    ques_1[12].Qs2 = "a.432   b.442   c. 532   d.542";
+    ques_1[12].ans = "a";
 
-    ques_1[13].Qs1 = "";
-    ques_1[13].Qs2 = "";
-    ques_1[13].ans = "";
+    ques_1[13].Qs1 = "What is the boiling point of pure water at 1 standard atomasphere pressure?";
+    ques_1[13].Qs2 = "a.0 degree Celsius   b. 100 degree Fahrenheit   c.100 Celsius degree   d.0 degree Fahrenheit";
+    ques_1[13].ans = "c";
 
-    ques_1[14].Qs1 = "";
-    ques_1[14].Qs2 = "";
-    ques_1[14].ans = "";
+    ques_1[14].Qs1 = "What is most symbolic in the Trojan War?";
+    ques_1[14].Qs2 = "a.Mirrors   b.Stone throwers   c.Wooden horse   d.Indians";
+    ques_1[14].ans = "c";
 
-    ques_1[15].Qs1 = "";
-    ques_1[15].Qs2 = "";
-    ques_1[15].ans = "";
+    ques_1[15].Qs1 = "3*37 = ?";
+    ques_1[15].Qs2 = "a.101   b.121   c. 91   d.111";
+    ques_1[15].ans = "d";
 
-    ques_1[16].Qs1 = "";
-    ques_1[16].Qs2 = "";
-    ques_1[16].ans = "";
+    ques_1[16].Qs1 = "How many digits are in the number 1002004?";
+    ques_1[16].Qs2 = "a.3   b.5   c.6   d.7";
+    ques_1[16].ans = "d";
 
-    ques_1[17].Qs1 = "";
-    ques_1[17].Qs2 = "";
-    ques_1[17].ans = "";
+    ques_1[17].Qs1 = "What is 109,786,865 rounded to the nearest ten million?";
+    ques_1[17].Qs2 = "a.110,000,000   b.100,000,000   c.111,000,000   d.109,770,000";
+    ques_1[17].ans = "a";
 
-    ques_1[18].Qs1 = "";
-    ques_1[18].Qs2 = "";
-    ques_1[18].ans = "";
+    ques_1[18].Qs1 = "456 梅 6 = ?";
+    ques_1[18].Qs2 = "a.7   b.76   c.75   d.70";
+    ques_1[18].ans = "b";
 
-    ques_1[19].Qs1 = "";
-    ques_1[19].Qs2 = "";
-    ques_1[19].ans = "";
+    ques_1[19].Qs1 = "2 梅 0 = ?";
+    ques_1[19].Qs2 = "a.2   b.0   c.infinity   d.cannot find answer";
+    ques_1[19].ans = "d";
 
-    ques_1[20].Qs1 = "";
-    ques_1[20].Qs2 = "";
-    ques_1[20].ans = "";
+    ques_1[20].Qs1 = "What is the value of (21 + 5) 梅 (4 - 2)?";
+    ques_1[20].Qs2 = "a.13   b.26   c.2   d.28";
+    ques_1[20].ans = "a";
 
-    ques_1[21].Qs1 = "";
-    ques_1[21].Qs2 = "";
-    ques_1[21].ans = "";
+    ques_1[21].Qs1 = "Which of the following numbers is prime?";
+    ques_1[21].Qs2 = "a.12   b.6   c.9   d.7";
+    ques_1[21].ans = "d";
 
-    ques_1[22].Qs1 = "";
-    ques_1[22].Qs2 = "";
-    ques_1[22].ans = "";
+    ques_1[22].Qs1 = "Find the Greatest Common Factor of 6 and 4";
+    ques_1[22].Qs2 = "a.1   b.2   c.4   d.6";
+    ques_1[22].ans = "b";
 
-    ques_1[23].Qs1 = "";
-    ques_1[23].Qs2 = "";
-    ques_1[23].ans = "";
+    ques_1[23].Qs1 = "2^3 = ?";
+    ques_1[23].Qs2 = "a.6   b.9   c.8   d.23";
+    ques_1[23].ans = "c";
 
-    ques_1[24].Qs1 = "";
-    ques_1[24].Qs2 = "";
-    ques_1[24].ans = "";
+    ques_1[24].Qs1 = "5 x 10^3 + 4 x 10^2 + 5 x 10^1 + 2 x 10^0 = ?";
+    ques_1[24].Qs2 = "a.5450   b.50+40+50+2   c.5452   d.5400";
+    ques_1[24].ans = "c";
     
     //ques_2 are for junior high school.
+    ques_2[1].Qs1 = "Evaluate : (-20) * (-2-4)";
+    ques_2[1].Qs2 = "a.-120   b.60   c.120   d.-60";
+    ques_2[1].ans = "c";
+
+    ques_2[2].Qs1 = "Round number 4.499 to the nearest integer.";
+    ques_2[2].Qs2 = "a.5   b.5.000   c.0   d.4";
+    ques_2[2].ans = "d";
+
+    ques_2[3].Qs1 = "Among a)1234  b)25  c)14505  d)63, how many are divisible by 5?";
+    ques_2[3].Qs2 = "a.1   b.2   c.3   d.4";
+    ques_2[3].ans = "b";
+
+    ques_2[4].Qs1 = "Which of the following numbers is divisible by 2?";
+    ques_2[4].Qs2 = "a.3798   b.7983   c.9873   d.8739";
+    ques_2[4].ans = "a";
+
+    ques_2[5].Qs1 = "find x, so that 10/15=x/3, x = ?";
+    ques_2[5].Qs2 = "a.150   b.5   c.2   d.1";
+    ques_2[5].ans = "c";
+
+    ques_2[6].Qs1 = "Which one is true?";
+    ques_2[6].Qs2 = "a.1/3 < 2/4   b.1/3 < 3/10   c.1/99 < 1/100   d.1=2";
+    ques_2[6].ans = "a";
+
+    ques_2[7].Qs1 = "Evaluate: (3^2)*(2^2)";
+    ques_2[7].Qs2 = "a.24   b.36   c.6   d.12";
+    ques_2[7].ans = "b";
+
+    ques_2[8].Qs1 = "Solve the equation: (x-8)/3=9, x = ?";
+    ques_2[8].Qs2 = "a.19   b.35   c.11   d.-5";
+    ques_2[8].ans = "b";
+
+    ques_2[9].Qs1 = "Which of the following values of x satifies the equation 2 x - 4 = 4 ?";
+    ques_2[9].Qs2 = "a.x=0   b.x=4   c.x=2   d.x=-2";
+    ques_2[9].ans = "b";
+
+    ques_2[10].Qs1 = "Which of the following pairs of equations have the same solution?";
+    ques_2[10].Qs2 = "a.x=2 and 2x=4   b.x+3=6 and x+4=8   c.x/2=2 and x=-4   d.3x=8 and x+1=4";
+    ques_2[10].ans = "a";
+    
     ques_2[11].Qs1 = "Which one is not one of the five oceans?";
     ques_2[11].Qs2 = "a.Pacific Ocean   b.Atlantic Ocean   c.Arctic Ocean   d.Baltic Sea";
     ques_2[11].ans = "d";
@@ -162,6 +202,70 @@ void initialize(){
     ques_2[24].ans = "c";
 
     //ques_3 are for senior high school.
+    ques_3[1].Qs1 = "Factor x^2 - 2x - 24";
+    ques_3[1].Qs2 = "a.(x-6)(x+4)   b.(x-4)(x-6)   c.(x+6)(x-4)   d.x(x-9)";
+    ques_3[1].ans = "a";
+
+    ques_3[2].Qs1 = "What is the interior angle of a right hexagon?";
+    ques_3[2].Qs2 = "a.60 degree   b.120 degree   c.720 degree   d.240 degree";
+    ques_3[2].ans = "b";
+
+    ques_3[3].Qs1 = "Do you like ENGG1340?";
+    ques_3[3].Qs2 = "a.No   b.Yes   c.Nope   d.Noooo";
+    ques_3[3].ans = "b";
+
+    ques_3[4].Qs1 = "";
+    ques_3[4].Qs2 = "";
+    ques_3[4].ans = "";
+
+    ques_3[5].Qs1 = "";
+    ques_3[5].Qs2 = "";
+    ques_3[5].ans = "";
+
+    ques_3[6].Qs1 = "";
+    ques_3[6].Qs2 = "";
+    ques_3[6].ans = "";
+
+    ques_3[7].Qs1 = "";
+    ques_3[7].Qs2 = "";
+    ques_3[7].ans = "";
+
+    ques_3[8].Qs1 = "";
+    ques_3[8].Qs2 = "";
+    ques_3[8].ans = "";
+
+    ques_3[9].Qs1 = "";
+    ques_3[9].Qs2 = "";
+    ques_3[9].ans = "";
+
+    ques_3[10].Qs1 = "";
+    ques_3[10].Qs2 = "";
+    ques_3[10].ans = "";
+
+    ques_3[11].Qs1 = "";
+    ques_3[11].Qs2 = "";
+    ques_3[11].ans = "";
+
+    ques_3[12].Qs1 = "";
+    ques_3[12].Qs2 = "";
+    ques_3[12].ans = "";
+
+    ques_3[13].Qs1 = "";
+    ques_3[13].Qs2 = "";
+    ques_3[13].ans = "";
+
+    ques_3[14].Qs1 = "";
+    ques_3[14].Qs2 = "";
+    ques_3[14].ans = "";
+
+    ques_3[15].Qs1 = "";
+    ques_3[15].Qs2 = "";
+    ques_3[15].ans = "";
+
+    ques_3[16].Qs1 = "";
+    ques_3[16].Qs2 = "";
+    ques_3[16].ans = "";
+    
     ques_3[17].Qs1 = "Holes are majority carriers in";
     ques_3[17].Qs2 = "a.P-type semiconductors   b.N-type semiconductors   c.Insulators   d.Superconductors";
     ques_3[17].ans = "a";
