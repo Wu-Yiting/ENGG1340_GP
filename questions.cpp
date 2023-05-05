@@ -100,15 +100,15 @@ void initialize(){
     ques_1[22].Qs2 = "a.1   b.2   c.4   d.6";
     ques_1[22].ans = "b";
 
-    ques_1[23].Qs1 = "2^3 = ?";
-    ques_1[23].Qs2 = "a.6   b.9   c.8   d.23";
+    ques_1[23].Qs1 = "5 x 10^3 + 4 x 10^2 + 5 x 10^1 + 2 x 10^0 = ?";
+    ques_1[23].Qs2 = "a.5450   b.50+40+50+2   c.5452   d.5400";
     ques_1[23].ans = "c";
-
-    ques_1[24].Qs1 = "5 x 10^3 + 4 x 10^2 + 5 x 10^1 + 2 x 10^0 = ?";
-    ques_1[24].Qs2 = "a.5450   b.50+40+50+2   c.5452   d.5400";
-    ques_1[24].ans = "c";
     
     //ques_2 are for junior high school.
+    ques_2[0].Qs1 = "123+321 = ?";
+    ques_2[0].Qs2 = "a.666   b.233   c.444   d.123321";
+    ques_2[0].ans = "c";
+
     ques_2[1].Qs1 = "Evaluate : (-20) * (-2-4)";
     ques_2[1].Qs2 = "a.-120   b.60   c.120   d.-60";
     ques_2[1].ans = "c";
@@ -197,11 +197,11 @@ void initialize(){
     ques_2[23].Qs2 = "a.353/1250   b.1412/2500   c.462/3000   d.888/7500";
     ques_2[23].ans = "a";
 
-    ques_2[24].Qs1 = "All semiconductors in their last orbit have";
-    ques_2[24].Qs2 = "a.8 electrons   b.2 electrons   c.4 electrons   d.6 electrons";
-    ques_2[24].ans = "c";
-
     //ques_3 are for senior high school.
+    ques_3[0].Qs1 = "2^3 = ?";
+    ques_3[0].Qs2 = "a.6   b.9   c.8   d.23";
+    ques_3[0].ans = "c";
+    
     ques_3[1].Qs1 = "Factor x^2 - 2x - 24";
     ques_3[1].Qs2 = "a.(x-6)(x+4)   b.(x-4)(x-6)   c.(x+6)(x-4)   d.x(x-9)";
     ques_3[1].ans = "a";
@@ -214,24 +214,24 @@ void initialize(){
     ques_3[3].Qs2 = "a.No   b.Yes   c.Nope   d.Noooo";
     ques_3[3].ans = "b";
 
-    ques_3[4].Qs1 = "";
-    ques_3[4].Qs2 = "";
-    ques_3[4].ans = "";
+    ques_3[4].Qs1 = "Evaluate (3 + 2i) - (8 - 5i)";
+    ques_3[4].Qs2 = "a.-5+7i   b.-5-3i   c.5+7i   d.-5+3i";
+    ques_3[4].ans = "a";
 
-    ques_3[5].Qs1 = "";
-    ques_3[5].Qs2 = "";
-    ques_3[5].ans = "";
+    ques_3[5].Qs1 = "Find the greatest common factor of the monomials 36x^2 and 42x^3";
+    ques_3[5].Qs2 = "a.6^2   b.36x^2   c.6x^3   d.6x^2";
+    ques_3[5].ans = "d";
 
-    ques_3[6].Qs1 = "";
-    ques_3[6].Qs2 = "";
-    ques_3[6].ans = "";
+    ques_3[6].Qs1 = "Which one is not a prerequisite of a fire?";
+    ques_3[6].Qs2 = "a.Oxygen   b.Heat   c.Nitrogen   d.Fuel";
+    ques_3[6].ans = "c";
 
-    ques_3[7].Qs1 = "";
-    ques_3[7].Qs2 = "";
-    ques_3[7].ans = "";
+    ques_3[7].Qs1 = "A periodic wave with wavelength λ = 0.5m and speed v=2m/s. What is its frequency?";
+    ques_3[7].Qs2 = "a.0.25Hz   b.4Hz   c.1.414Hz   d.2Hz";
+    ques_3[7].ans = "b";
 
-    ques_3[8].Qs1 = "";
-    ques_3[8].Qs2 = "";
+    ques_3[8].Qs1 = "What is the national flower of USA?";
+    ques_3[8].Qs2 = "a.Rose   b.Dirk";
     ques_3[8].ans = "";
 
     ques_3[9].Qs1 = "";
@@ -262,9 +262,9 @@ void initialize(){
     ques_3[15].Qs2 = "";
     ques_3[15].ans = "";
 
-    ques_3[16].Qs1 = "";
-    ques_3[16].Qs2 = "";
-    ques_3[16].ans = "";
+    ques_3[16].Qs1 = "All semiconductors in their last orbit have";
+    ques_3[16].Qs2 = "a.8 electrons   b.2 electrons   c.4 electrons   d.6 electrons";
+    ques_3[16].ans = "c";
     
     ques_3[17].Qs1 = "Holes are majority carriers in";
     ques_3[17].Qs2 = "a.P-type semiconductors   b.N-type semiconductors   c.Insulators   d.Superconductors";
