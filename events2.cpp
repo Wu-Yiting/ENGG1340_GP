@@ -61,6 +61,8 @@ void special_events(){
                 game_end = true;
                 ending = 2;
             }
+            cout << "Parent satisfaction -" << pa - parent_satisf << endl;
+            Delay(500);
         }
         return;
     }
@@ -95,7 +97,7 @@ void special_events(){
                 }
                 cout << "Pressure -" << p - pressure << endl;
                 Delay(500);
-                cout << "Parent satisfication -" << pa - parent_satisf << endl;
+                cout << "Parent satisfaction -" << pa - parent_satisf << endl;
                 Delay(500);
             }
             if (input == 3){
@@ -139,7 +141,7 @@ void special_events(){
                 Delay(500);
                 cout << "Pressure +" << pressure - p << endl;
                 Delay(500);
-                cout << "Parent satisfication +" << parent_satisf - pa << endl;
+                cout << "Parent satisfaction +" << parent_satisf - pa << endl;
                 Delay(500);
             }
         }
@@ -204,7 +206,7 @@ void special_events(){
             }
             money = money + 10;
             Delay(500);
-            cout << "Parent satisfication +" << parent_satisf - pa << endl;
+            cout << "Parent satisfaction +" << parent_satisf - pa << endl;
             Delay(500);
             cout << "Money +" << money - m << endl;
         }
@@ -217,6 +219,10 @@ void special_events(){
                 ending = 2;
             }
             pressure = pressure - 10;
+            cout << "Parent satisfaction -" << pa - parent_satisf << endl;
+            Delay(500);
+            cout << "Pressure -" << p - pressure << endl;
+            Delay(500);
         }
     }
     if ((ran >= 60) && (ran < 80)){
