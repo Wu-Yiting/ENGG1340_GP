@@ -7,6 +7,7 @@ void exam_1(){
     string input_3;
     int number,score;
     int diffi=4;
+    double score1;
     score = 0;
     cout << "===========================" << endl;
     Delay(300);
@@ -55,18 +56,18 @@ void exam_1(){
                 auto duration = duration_cast<milliseconds>(stop - start).count();
                 if (duration <= (time1*1000)){
                     if (input_3 == ques_1[number].ans){
-                        cout << "Correct! score + 3" << endl;
+                        cout << "Correct! Point + 3" << endl;
                         score = score + 3;
                         Delay(500);
                         cout << "Time you take:" << fixed << setprecision(2) << static_cast<double>(duration) / 1000 << endl;
                         Delay(500);
                     }else{
                         if (erase > 0){
-                            cout << "You are wrong. But erase by the eraser. score + 1" << endl;
+                            cout << "You are wrong. But erase by the eraser. point + 1" << endl;
                             score = score + 3;
                             erase = erase - 1;
                         }else{
-                            cout << "You are wrong. score - 1" << endl;
+                            cout << "You are wrong. Point - 1" << endl;
                             score = score - 1;
                         }
                         Delay(500);
@@ -74,7 +75,7 @@ void exam_1(){
                         Delay(500);
                     }
                 }else{
-                    cout << "Too late. score + 0" << endl;
+                    cout << "Too late. Point + 0" << endl;
                     Delay(500);
                     cout << "Time you take:" << fixed << setprecision(2) << static_cast<double>(duration) / 1000 << endl;
                     Delay(500);
@@ -83,10 +84,10 @@ void exam_1(){
             }
         }
     }
-    score = score / 100;
+    score1 = static_cast<double>(score) / 100;
     output("The exam is finished. Your score:");
-    cout << score << endl;
-    if (score >= 60){
+    cout << fixed << setprecision(0) << score1 << endl;
+    if (score1 >= 60){
         output("Congradulations! You pass the exam and get in the middle school!");cout << endl;
     }else{
         output("Your exam is failed");cout << endl;
@@ -101,6 +102,7 @@ void exam_2(){
     int number,score;
     int diffi=4;
     int list_1[10];
+    double score1;
     score = 0;
     cout << "===========================" << endl;
     Delay(300);
@@ -148,18 +150,18 @@ void exam_2(){
                 auto duration = duration_cast<milliseconds>(stop - start).count();
                 if (duration <= (time1*1000)){
                     if (input_3 == ques_2[number].ans){
-                        cout << "Correct! score + 3" << endl;
+                        cout << "Correct! Point + 3" << endl;
                         score = score + 3;
                         Delay(500);
                         cout << "Time you take:" << fixed << setprecision(2) << static_cast<double>(duration) / 1000 << endl;
                         Delay(500);
                     }else{
                         if (erase > 0){
-                            cout << "You are wrong. But erase by the eraser. score + 1" << endl;
+                            cout << "You are wrong. But erase by the eraser. Point + 1" << endl;
                             score = score + 3;
                             erase = erase - 1;
                         }else{
-                            cout << "You are wrong. score - 1" << endl;
+                            cout << "You are wrong. Point - 1" << endl;
                             score = score - 1;
                         }
                         Delay(500);
@@ -167,7 +169,7 @@ void exam_2(){
                         Delay(500);
                     }
                 }else{
-                    cout << "Too late. score + 0" << endl;
+                    cout << "Too late. Point + 0" << endl;
                     Delay(500);
                     cout << "Time you take:" << fixed << setprecision(2) << static_cast<double>(duration) / 1000 << endl;
                     Delay(500);
@@ -176,11 +178,11 @@ void exam_2(){
             }
         }
     }
-    score = score / 100;
+    score1 = static_cast<double>(score) / 100;
     output("The exam is finished. Your score:");
-    cout << score << endl;
+    cout << fixed << setprecision(0) << score1 << endl;
     if (hobby_end){
-        if (score >= 30){
+        if (score1 >= 30){
             output("Congradulations! You pass the exam and get in the high school!");cout << endl;
         }else{
             output("Your exam is failed");cout << endl;
@@ -188,7 +190,7 @@ void exam_2(){
             ending = 9 + (hobby_id-1) * 2;
         }
     }else{
-        if (score >= 60){
+        if (score1 >= 60){
             output("Congradulations! You pass the exam and get in the high school!");cout << endl;
         }else{
             output("Your exam is failed");cout << endl;
@@ -204,6 +206,7 @@ void exam_3(){
     int number,score;
     int diffi=4;
     int list_1[10];
+    double score1;
     score = 0;
     cout << "===========================" << endl;
     Delay(300);
@@ -251,18 +254,18 @@ void exam_3(){
                 auto duration = duration_cast<milliseconds>(stop - start).count();
                 if (duration <= (time1*1000)){
                     if (input_3 == ques_3[number].ans){
-                        cout << "Correct! score + 3" << endl;
+                        cout << "Correct! Point + 3" << endl;
                         score = score + 3;
                         Delay(500);
                         cout << "Time you take:" << fixed << setprecision(2) << static_cast<double>(duration) / 1000 << endl;
                         Delay(500);
                     }else{
                         if (erase > 0){
-                            cout << "You are wrong. But erase by the eraser. score + 1" << endl;
+                            cout << "You are wrong. But erase by the eraser. Point + 1" << endl;
                             score = score + 3;
                             erase = erase - 1;
                         }else{
-                            cout << "You are wrong. score - 1" << endl;
+                            cout << "You are wrong. Point - 1" << endl;
                             score = score - 1;
                         }
                         Delay(500);
@@ -270,7 +273,7 @@ void exam_3(){
                         Delay(500);
                     }
                 }else{
-                    cout << "Too late. score + 0" << endl;
+                    cout << "Too late. point + 0" << endl;
                     Delay(500);
                     cout << "Time you take:" << fixed << setprecision(2) << static_cast<double>(duration) / 1000 << endl;
                     Delay(500);
@@ -279,11 +282,11 @@ void exam_3(){
             }
         }
     }
-    score = score / 100;
+    score1 = static_cast<double>(score) / 100;
     output("The exam is finished. Your score:");
-    cout << score << endl;
+    cout << fixed << setprecision(0) << score1 << endl;
     if (hobby_end){
-        if (score >= 30){
+        if (score1 >= 30){
             output("Congradulations! You pass the exam and get in the university!");cout << endl;
             game_end = true;
             ending = 8 + (hobby_id-1) * 2;
@@ -293,7 +296,7 @@ void exam_3(){
             ending = 9 + (hobby_id-1) * 2;
         }
     }else{
-        if (score >= 60){
+        if (score1 >= 60){
             output("Congradulations! You pass the exam and get in the university!");cout << endl;
             if (pressure > 80){
                 game_end = true;
