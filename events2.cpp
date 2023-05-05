@@ -70,6 +70,8 @@ void special_events(){
     ran = rand() % 50;
     if ((not task) && (ran > 40 + unlucky)){
         task = true;
+        task_r = 8;
+        task_n = IQ;
         output("Your recieve a task from your teacher."); cout << endl;
         output("Teacher want you to make a plane model"); cout << endl;
         Delay(500);
@@ -255,9 +257,46 @@ void special_events(){
             }
         }
     }
-    if ((ran >= 80) && (ran <= 95)){
-        
-
+    if ((ran >= 80) && (ran <= 100)){
+        output("The school organize you to go hiking."); cout << endl;
+        output("During the trip, you choose:"); cout << endl;
+        cout << "1. Pick some flower and give to your mom as a present." << endl;
+        cout << "2. Take out the class book and study." << endl;
+        input = inputting("12");
+        if (input == 1){
+            output("Your mom is really happy."); cout << endl;
+            parent_satisf = parent_satisf + 30;
+            pressure = pressure - 15;
+            if (parent_satisf > 100){
+                parent_satisf = 100;
+            }
+            if (pressure < 0){
+                pressure = 0;
+            }
+            Delay(500);
+            cout << "Parent satisfaction +" << parent_satisf - pa << endl;
+            Delay(500);
+            cout << "Pressure -" << p - pressure << endl;
+            Delay(500);
+        }
+        if (input == 2){
+            output("It is not a wise choise."); cout << endl;
+            Delay(500);
+            pressure = pressure + 15;
+            if (pressure > 100){
+                pressure = 100;
+                game_end = true;
+                ending = 1;
+            }
+            IQ = IQ + 3;
+            if (IQ > 100){
+                IQ = 100;
+            }
+            cout << "IQ +" << IQ - ii << endl;
+            Delay(500);
+            cout << "Pressure -" << pressure - p << endl;
+            Delay(500);
+        }
     }
 }
 
