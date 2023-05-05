@@ -18,6 +18,7 @@ void special_events(){
                 output("You can only choose one hobby in this game, and the choice cannot change.");cout<<endl;
                 output("1.Drawing 2.Basketball 3.Singing");cout<<endl;
                 hobby_id = inputting("123");
+                if_hobby = true;
                 return;
             }
         }
@@ -42,12 +43,12 @@ void special_events(){
             output("You fall into a large pit"); cout << endl;
             output("You will skip the next two round"); cout << endl;
             month = month + 4;
-            if (month == 13){
+            if (month > 12){
                 month = 1;
                 age = age + 1;
             }
             round1 = round1 + 2;
-            if (round1 == 10){
+            if (round1 >= 10){
                 main_exam = true;
                 round1 = 0;
             }
@@ -254,6 +255,9 @@ void special_events(){
                 ending = 2;
             }
             pressure = pressure - 10;
+            if (pressure < 0){
+                pressure = 0;
+            }
             cout << "Parent satisfaction -" << pa - parent_satisf << endl;
             Delay(500);
             cout << "Pressure -" << p - pressure << endl;
