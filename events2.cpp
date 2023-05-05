@@ -16,7 +16,7 @@ void special_events(){
             if (ran == 1){
                 output("It's time for you to develop a hobby!(hobby may become your profession in the future)");cout<<endl;
                 output("You can only choose one hobby in this game, and the choice cannot change.");cout<<endl;
-                output("1.Drawing 2.Basketball 3.Computer game");cout<<endl;
+                output("1.Drawing 2.Basketball 3.Singing");cout<<endl;
                 hobby_id = inputting("123");
                 return;
             }
@@ -318,6 +318,7 @@ void hobby(){
             cout << "Your hobby value: " << hobby_value << endl;
             Delay(500);
             output("Now you become an expert in drawing!");
+            hobby_end = true;
         }
     }
     if (hobby_id == 2){
@@ -334,22 +335,24 @@ void hobby(){
             cout << "Your hobby value: " << hobby_value << endl;
             Delay(500);
             output("Now you become master in basketball!");
+            hobby_end = true;
         }
     }
     if (hobby_id == 3){
         if (hobby_value < 9){
-            output("You practice the computer game, the hobby value increase."); cout << endl;
+            output("You practice the singing, the hobby value increase."); cout << endl;
             hobby_value = hobby_value + 1;
             Delay(500);
             cout << "Your hobby value: " << hobby_value << endl;
             Delay(500);
         }else{
-            output("You practice the computer game, the hobby value increase."); cout << endl;
+            output("You practice the singing, the hobby value increase."); cout << endl;
             hobby_value = hobby_value + 1;
             Delay(500);
             cout << "Your hobby value: " << hobby_value << endl;
             Delay(500);
-            output("Now you become an expert in gaming!");
+            output("Now you become an expert in singing!");
+            hobby_end = true;
         }
     }
 }
