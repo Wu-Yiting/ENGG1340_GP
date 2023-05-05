@@ -128,13 +128,13 @@ void exam_2(){
         cout << "Invalid input, please try angain!" << endl;
     }
     for (int i=0; i<10; i++){
-        if ((IQ>=0) && (IQ<15)){
+        if ((IQ>=60) && (IQ<75)){
             diffi = 4;
             number = list_4[i];
-        }else if ((IQ>=15) && (IQ<30)){
+        }else if ((IQ>=75) && (IQ<90)){
             diffi = 3;
             number = list_3[i];
-        }else if ((IQ>=30) && (IQ<45)){
+        }else if ((IQ>=90) && (IQ<105)){
             diffi = 2;
             number = list_2[i];
         }else{
@@ -234,13 +234,13 @@ void exam_3(){
         cout << "Invalid input, please try angain!" << endl;
     }
     for (int i=0; i<10; i++){
-        if ((IQ>=0) && (IQ<15)){
+        if ((IQ>=120) && (IQ<135)){
             diffi = 4;
             number = list_4[i];
-        }else if ((IQ>=15) && (IQ<30)){
+        }else if ((IQ>=135) && (IQ<150)){
             diffi = 3;
             number = list_3[i];
-        }else if ((IQ>=30) && (IQ<45)){
+        }else if ((IQ>=150) && (IQ<165)){
             diffi = 2;
             number = list_2[i];
         }else{
