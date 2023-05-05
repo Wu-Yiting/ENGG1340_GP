@@ -226,9 +226,9 @@ void initialize(){
     ques_3[6].Qs2 = "a.Oxygen   b.Heat   c.Nitrogen   d.Fuel";
     ques_3[6].ans = "c";
 
-    ques_3[7].Qs1 = "";
-    ques_3[7].Qs2 = "";
-    ques_3[7].ans = "";
+    ques_3[7].Qs1 = "A periodic wave with wavelength λ = 0.5m and speed v=2m/s. What is its frequency?";
+    ques_3[7].Qs2 = "a.0.25Hz   b.4Hz   c.1.414Hz   d.2Hz";
+    ques_3[7].ans = "b";
 
     ques_3[8].Qs1 = "";
     ques_3[8].Qs2 = "";
