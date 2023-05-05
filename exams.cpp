@@ -84,11 +84,12 @@ void exam_1(){
             }
         }
     }
-    score1 = static_cast<double>(score) / 100;
+    score1 = static_cast<double>(score) / 30 * 100;
     output("The exam is finished. Your score:");
     cout << fixed << setprecision(0) << score1 << endl;
     if (score1 >= 60){
         output("Congradulations! You pass the exam and get in the middle school!");cout << endl;
+        game_stage = 2;
     }else{
         output("Your exam is failed");cout << endl;
         game_end = true;
@@ -178,12 +179,13 @@ void exam_2(){
             }
         }
     }
-    score1 = static_cast<double>(score) / 100;
+    score1 = static_cast<double>(score) / 30 * 100;
     output("The exam is finished. Your score:");
     cout << fixed << setprecision(0) << score1 << endl;
     if (hobby_end){
         if (score1 >= 30){
             output("Congradulations! You pass the exam and get in the high school!");cout << endl;
+            game_stage = 3;
         }else{
             output("Your exam is failed");cout << endl;
             game_end = true;
@@ -192,6 +194,7 @@ void exam_2(){
     }else{
         if (score1 >= 60){
             output("Congradulations! You pass the exam and get in the high school!");cout << endl;
+            game_stage = 3;
         }else{
             output("Your exam is failed");cout << endl;
             game_end = true;
@@ -282,7 +285,7 @@ void exam_3(){
             }
         }
     }
-    score1 = static_cast<double>(score) / 100;
+    score1 = static_cast<double>(score) / 30 * 100;
     output("The exam is finished. Your score:");
     cout << fixed << setprecision(0) << score1 << endl;
     if (hobby_end){
