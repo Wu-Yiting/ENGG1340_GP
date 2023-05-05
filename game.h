@@ -19,7 +19,7 @@ class question{
         string ans;
 };
 
-extern bool game_end,if_hobby,bob,task;
+extern bool game_end,if_hobby,bob,task,hobby_end;
 extern int ending,age,month;
 extern int game_stage;
 extern bool main_exam;
