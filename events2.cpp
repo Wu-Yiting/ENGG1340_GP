@@ -136,7 +136,7 @@ void special_events(){
             cout << "1.Let's go, I love study!" << endl;
             cout << "2.Sorry, I want to rest." << endl;
             input = inputting("12");
-            if (input = 1){
+            if (input == 1){
                 output("You study with Tom until midnight."); cout << endl;
                 output("You learned a lot, but you fill really tired"); cout << endl;
                 IQ = IQ + 20;
@@ -169,7 +169,7 @@ void special_events(){
         cout << "Your money:" << money << endl;
         cout << "1.Erase (fix one of the mistake in your exam) 20$" << endl;
         cout << "2.Clock (increase 2s in your answering time) 50$" << endl;
-        if (hobby){
+        if (if_hobby){
             cout << "3.Skill book (Increase the skill of your hobby by 1(only when the hobby value < 9)) 20$" << endl;
         }
         cout << "4.Leave" << endl;
@@ -229,7 +229,7 @@ void special_events(){
             Delay(500);
             cout << "Money +" << money - m << endl;
         }
-        if (input = 2){
+        if (input == 2){
             cout << "Your parents seems disappointed." << endl;
             parent_satisf = parent_satisf - 5;
             if (parent_satisf < 0){
