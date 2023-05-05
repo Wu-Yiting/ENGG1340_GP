@@ -20,7 +20,7 @@ void exam_1(){
     Delay(300);
     output_slow("You will get 3 point for the correct answer and you will lose 1 point for the wrong answer.");cout << endl;
     Delay(300);
-    output_slow("Your answering time is");cout << time1 << endl;output_slow("s, you will get 0 point of the time out question.");cout << endl;
+    output_slow("Your answering time is");cout << time1;output_slow("s, you will get 0 point of the time out question.");cout << endl;
     Delay(300);
     output_slow("Good luck! Enter 'Y' to start the exam.");cout<<endl;
     while (true){
@@ -103,7 +103,7 @@ void exam_2(){
     Delay(300);
     output_slow("You will get 3 point for the correct answer and you will lose 1 point for the wrong answer.");cout << endl;
     Delay(300);
-    output_slow("Your answering time is");cout << time1 << endl;output_slow("s, you will get 0 point of the time out question.");cout << endl;
+    output_slow("Your answering time is");cout << time1;output_slow("s, you will get 0 point of the time out question.");cout << endl;
     Delay(300);
     output_slow("Good luck! Enter 'Y' to start the exam.");cout<<endl;
     while (true){
@@ -196,7 +196,7 @@ void exam_3(){
     Delay(300);
     output_slow("You will get 3 point for the correct answer and you will lose 1 point for the wrong answer.");cout << endl;
     Delay(300);
-    output_slow("Your answering time is");cout << time1 << endl;output_slow("s, you will get 0 point of the time out question.");cout << endl;
+    output_slow("Your answering time is");cout << time1;output_slow("s, you will get 0 point of the time out question.");cout << endl;
     Delay(300);
     output_slow("Good luck! Enter 'Y' to start the exam.");cout<<endl;
     while (true){
