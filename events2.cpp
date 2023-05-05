@@ -182,11 +182,21 @@ void special_events(){
         if (if_hobby){
             cout << "3.Skill book (Increase the skill of your hobby by 1(only when the hobby value < 9)) 20$" << endl;
         }
-        cout << "4.Leave" << endl;
+        if (if_hobby){
+            cout << "4.Leave" << endl;
+        }else{
+            cout << "3.Leave" << endl;
+        }
         while (true){
             input = inputting("1234");
-            if (input == 4){
-                break;
+            if (if_hobby){
+                if (input == 4){
+                    break;
+                }
+            }else{
+                if (input == 3){
+                    break;
+                }
             }
             if (input == 1){
                 if (money >= 20){
