@@ -1,5 +1,6 @@
 #include <iostream>
 #include "game.h"
+using namespace std;
 using namespace chrono;
 
 void exam_1(){
@@ -38,12 +39,12 @@ void exam_1(){
     }else if ((IQ>=45)){
         diffi = 1;
     }
+    getnumber(diffi);
     for (int i=0; i<=10; i++){
-        srand(time(nullptr));
-        number = rand() % (diffi*10 - 1) + diffi*10 - 10;
+        number = list_1[i];
         cout << endl <<  "==========================" << endl;
-        output(ques_1[i].Qs1);cout<<endl;
-        output(ques_1[i].Qs2);cout<<endl;
+        output(ques_1[number].Qs1);cout<<endl;
+        output(ques_1[number].Qs2);cout<<endl;
         auto start = high_resolution_clock::now();
         while (true){
             if (cin >> input_3){
@@ -121,12 +122,12 @@ void exam_2(){
     }else if ((IQ>=105)){
         diffi = 1;
     }
+    getnumber(diffi);
     for (int i=0; i<=10; i++){
-        srand(time(nullptr));
-        number = rand() % (diffi*10 - 1) + diffi*10 - 10;
+        number = list_1[i];
         cout << endl <<  "==========================" << endl;
-        output(ques_2[i].Qs1);cout<<endl;
-        output(ques_2[i].Qs2);cout<<endl;
+        output(ques_2[number].Qs1);cout<<endl;
+        output(ques_2[number].Qs2);cout<<endl;
         auto start = high_resolution_clock::now();
         while (true){
             if (cin >> input_3){
@@ -214,12 +215,12 @@ void exam_3(){
     }else if ((IQ>=165)){
         diffi = 1;
     }
+    getnumber(diffi);
     for (int i=0; i<=10; i++){
-        srand(time(nullptr));
-        number = rand() % (diffi*10 - 1) + diffi*10 - 10;
+        number = list_1[i];
         cout << endl <<  "==========================" << endl;
-        output(ques_3[i].Qs1);cout<<endl;
-        output(ques_3[i].Qs2);cout<<endl;
+        output(ques_3[number].Qs1);cout<<endl;
+        output(ques_3[number].Qs2);cout<<endl;
         auto start = high_resolution_clock::now();
         while (true){
             if (cin >> input_3){
