@@ -80,11 +80,11 @@ void initialize(){
     ques_1[17].Qs2 = "a.110,000,000   b.100,000,000   c.111,000,000   d.109,770,000";
     ques_1[17].ans = "a";
 
-    ques_1[18].Qs1 = "456 梅 6 = ?";
+    ques_1[18].Qs1 = "456 / 6 = ?";
     ques_1[18].Qs2 = "a.7   b.76   c.75   d.70";
     ques_1[18].ans = "b";
 
-    ques_1[19].Qs1 = "2 梅 0 = ?";
+    ques_1[19].Qs1 = "2 / 0 = ?";
     ques_1[19].Qs2 = "a.2   b.0   c.infinity   d.cannot find answer";
     ques_1[19].ans = "d";
 
