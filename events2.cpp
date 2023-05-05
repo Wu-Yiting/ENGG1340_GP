@@ -66,6 +66,20 @@ void special_events(){
         }
         return;
     }
+    srand(time(nullptr));
+    ran = rand() % 50;
+    if ((not task) && (ran > 40 + unlucky)){
+        task = true;
+        output("Your recieve a task from your teacher."); cout << endl;
+        output("Teacher want you to make a plane model"); cout << endl;
+        Delay(500);
+        cout << "Task begin, round left: 8, goals: increase 30 IQ in 8 rounds" << endl;
+        Delay(500);
+        cout << "You will receive award after you make it." << endl;
+        Delay(500);
+        return;
+    }
+
 
     if (game_stage == 1){
         srand(time(nullptr));
@@ -240,6 +254,10 @@ void special_events(){
                 unlucky = -5;
             }
         }
+    }
+    if ((ran >= 80) && (ran <= 95)){
+        
+
     }
 }
 
