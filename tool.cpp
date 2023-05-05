@@ -50,7 +50,7 @@ void Delay(int n){
     std::this_thread::sleep_for(std::chrono::milliseconds(n));
 }
 
-void getnumber(int diffi){
+/*void getnumber(int diffi){
     int ran,n;
     int a[10] = {0,1,2,3,4,5,6,7,8,9};
     int b[10] = {6,7,8,9,10,11,12,13,14,15};
@@ -124,4 +124,4 @@ void getnumber(int diffi){
         }
     }
     
-}
+}*/
