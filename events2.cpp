@@ -22,8 +22,18 @@ void special_events(){
             }
         }
     }
-    srand(time(nullptr));
-    ran = rand() % 50;
+    if (game_stage == 1){
+        srand(time(nullptr));
+        ran = rand() % 50;
+    }
+    if (game_stage == 2){
+        srand(time(nullptr));
+        ran = rand() % 80;
+    }
+    if (game_stage ==3){
+        srand(time(nullptr));
+        ran = rand() % 100;
+    }
     if (ran <= (unlucky + 10)){
         srand(time(nullptr));
         ran1 = rand() % 3 + 1;
