@@ -24,7 +24,7 @@ void study(int stage){
     Delay(500);
     cout << "Your Pressure+"<< pressure - b << endl;
     Delay(500);
-    cout << "The Parent Satisfication+" << parent_satisf - c << endl;
+    cout << "The Parent Satisfaction+" << parent_satisf - c << endl;
     Delay(500);
 
 }
