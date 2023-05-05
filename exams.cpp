@@ -40,7 +40,7 @@ void exam_1(){
         diffi = 1;
     }
     getnumber(diffi);
-    for (int i=0; i<=10; i++){
+    for (int i=0; i<10; i++){
         number = list_1[i];
         cout << endl <<  "==========================" << endl;
         output(ques_1[number].Qs1);cout<<endl;
@@ -123,7 +123,7 @@ void exam_2(){
         diffi = 1;
     }
     getnumber(diffi);
-    for (int i=0; i<=10; i++){
+    for (int i=0; i<10; i++){
         number = list_1[i];
         cout << endl <<  "==========================" << endl;
         output(ques_2[number].Qs1);cout<<endl;
@@ -216,7 +216,7 @@ void exam_3(){
         diffi = 1;
     }
     getnumber(diffi);
-    for (int i=0; i<=10; i++){
+    for (int i=0; i<10; i++){
         number = list_1[i];
         cout << endl <<  "==========================" << endl;
         output(ques_3[number].Qs1);cout<<endl;
