@@ -61,8 +61,14 @@ void exam_1(){
                         cout << "Time you take:" << fixed << setprecision(2) << static_cast<double>(duration) / 1000 << endl;
                         Delay(500);
                     }else{
-                        cout << "You are wrong. score - 1" << endl;
-                        score = score - 1;
+                        if (erase > 0){
+                            cout << "You are wrong. But erase by the eraser. score + 1" << endl;
+                            score = score + 3;
+                            erase = erase - 1;
+                        }else{
+                            cout << "You are wrong. score - 1" << endl;
+                            score = score - 1;
+                        }
                         Delay(500);
                         cout << "Time you take:" << fixed << setprecision(2) << static_cast<double>(duration) / 1000 << endl;
                         Delay(500);
@@ -77,6 +83,7 @@ void exam_1(){
             }
         }
     }
+    score = score / 100;
     output("The exam is finished. Your score:");
     cout << score << endl;
     if (score >= 60){
@@ -147,8 +154,14 @@ void exam_2(){
                         cout << "Time you take:" << fixed << setprecision(2) << static_cast<double>(duration) / 1000 << endl;
                         Delay(500);
                     }else{
-                        cout << "You are wrong. score - 1" << endl;
-                        score = score - 1;
+                        if (erase > 0){
+                            cout << "You are wrong. But erase by the eraser. score + 1" << endl;
+                            score = score + 3;
+                            erase = erase - 1;
+                        }else{
+                            cout << "You are wrong. score - 1" << endl;
+                            score = score - 1;
+                        }
                         Delay(500);
                         cout << "Time you take:" << fixed << setprecision(2) << static_cast<double>(duration) / 1000 << endl;
                         Delay(500);
@@ -163,6 +176,7 @@ void exam_2(){
             }
         }
     }
+    score = score / 100;
     output("The exam is finished. Your score:");
     cout << score << endl;
     if (hobby_end){
@@ -243,8 +257,14 @@ void exam_3(){
                         cout << "Time you take:" << fixed << setprecision(2) << static_cast<double>(duration) / 1000 << endl;
                         Delay(500);
                     }else{
-                        cout << "You are wrong. score - 1" << endl;
-                        score = score - 1;
+                        if (erase > 0){
+                            cout << "You are wrong. But erase by the eraser. score + 1" << endl;
+                            score = score + 3;
+                            erase = erase - 1;
+                        }else{
+                            cout << "You are wrong. score - 1" << endl;
+                            score = score - 1;
+                        }
                         Delay(500);
                         cout << "Time you take:" << fixed << setprecision(2) << static_cast<double>(duration) / 1000 << endl;
                         Delay(500);
@@ -259,6 +279,7 @@ void exam_3(){
             }
         }
     }
+    score = score / 100;
     output("The exam is finished. Your score:");
     cout << score << endl;
     if (hobby_end){
