@@ -88,7 +88,7 @@ void initialize(){
     ques_1[19].Qs2 = "a.2   b.0   c.infinity   d.cannot find answer";
     ques_1[19].ans = "d";
 
-    ques_1[20].Qs1 = "What is the value of (21 + 5) 梅 (4 - 2)?";
+    ques_1[20].Qs1 = "What is the value of (21 + 5) / (4 - 2)?";
     ques_1[20].Qs2 = "a.13   b.26   c.2   d.28";
     ques_1[20].ans = "a";
 
