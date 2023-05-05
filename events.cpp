@@ -5,9 +5,9 @@ using namespace std;
 void study(int stage){
     int a,b,c;
     a = IQ;b = pressure;c = parent_satisf;
-    IQ = IQ + 2*stage;
+    IQ = IQ + 2*stage + 5;
     parent_satisf = parent_satisf + 10;
-    pressure = pressure + 4*stage;
+    pressure = pressure + 4*stage + 10;
     if (IQ > 200){
         IQ = 200;
     }
