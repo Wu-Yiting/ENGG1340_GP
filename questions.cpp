@@ -231,7 +231,7 @@ void initialize(){
     ques_3[7].ans = "b";
 
     ques_3[8].Qs1 = "What is the national flower of USA?";
-    ques_3[8].Qs2 = "a.Rose   ";
+    ques_3[8].Qs2 = "a.Rose   b.Dirk";
     ques_3[8].ans = "";
 
     ques_3[9].Qs1 = "";
