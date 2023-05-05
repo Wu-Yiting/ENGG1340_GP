@@ -22,18 +22,8 @@ void special_events(){
             }
         }
     }
-    if (game_stage == 1){
-        srand(time(nullptr));
-        ran = rand() % 50;
-    }
-    if (game_stage == 2){
-        srand(time(nullptr));
-        ran = rand() % 80;
-    }
-    if (game_stage ==3){
-        srand(time(nullptr));
-        ran = rand() % 100;
-    }
+    srand(time(nullptr));
+    ran = rand() % 50;
     if (ran <= (unlucky + 10)){
         srand(time(nullptr));
         ran1 = rand() % 3 + 1;
@@ -56,10 +46,10 @@ void special_events(){
                 month = 1;
                 age = age + 1;
             }
-            round = round + 2;
-            if (round == 10){
+            round1 = round1 + 2;
+            if (round1 == 10){
                 main_exam = true;
-                round = 0;
+                round1 = 0;
             }
         }
         if (ran1 == 3){
@@ -91,11 +81,17 @@ void special_events(){
         Delay(500);
         return;
     }
-
-
     if (game_stage == 1){
         srand(time(nullptr));
         ran = rand() % 40;
+    }
+    if (game_stage == 2){
+        srand(time(nullptr));
+        ran = rand() % 80;
+    }
+    if (game_stage ==3){
+        srand(time(nullptr));
+        ran = rand() % 100;
     }
     if (ran <= 20){
         if (bob){

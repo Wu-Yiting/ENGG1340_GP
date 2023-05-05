@@ -11,10 +11,10 @@ void rungame(){
                 month = 1;
                 age = age + 1;
             }
-            round = round + 1;
-            if (round == 10){
+            round1 = round1 + 1;
+            if (round1 == 10){
                 main_exam = true;
-                round = 0;
+                round1 = 0;
             }
             if (task){
                 if ((IQ - task_n) >= 30){
@@ -41,10 +41,10 @@ void rungame(){
                 month = 1;
                 age = age + 1;
             }
-            round = round + 1;
-            if (round == 10){
+            round1 = round1 + 1;
+            if (round1 == 10){
                 main_exam = true;
-                round = 0;
+                round1 = 0;
             }
             if (task){
                 if ((IQ - task_n) >= 30){
@@ -71,10 +71,10 @@ void rungame(){
                 month = 1;
                 age = age + 1;
             }
-            round = round + 1;
-            if (round == 10){
+            round1 = round1 + 1;
+            if (round1 == 10){
                 main_exam = true;
-                round = 0;
+                round1 = 0;
             }
             if (task){
                 if ((IQ - task_n) >= 30){
