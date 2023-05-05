@@ -7,12 +7,12 @@ void rungame(){
         if (game_stage == 1){
             options_1();
             month = month + 2;
-            if (month == 13){
+            if (month >= 13){
                 month = 1;
                 age = age + 1;
             }
             round1 = round1 + 1;
-            if (round1 == 10){
+            if (round1 >= 10){
                 main_exam = true;
                 round1 = 0;
             }
@@ -37,12 +37,12 @@ void rungame(){
         else if (game_stage == 2){
             options_2();
             month = month + 2;
-            if (month == 13){
+            if (month >= 13){
                 month = 1;
                 age = age + 1;
             }
             round1 = round1 + 1;
-            if (round1 == 10){
+            if (round1 >= 10){
                 main_exam = true;
                 round1 = 0;
             }
@@ -67,12 +67,12 @@ void rungame(){
         else if (game_stage == 3){
             options_3();
             month = month + 2;
-            if (month == 13){
+            if (month >= 13){
                 month = 1;
                 age = age + 1;
             }
             round1 = round1 + 1;
-            if (round1 == 10){
+            if (round1 >= 10){
                 main_exam = true;
                 round1 = 0;
             }
