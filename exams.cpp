@@ -264,10 +264,17 @@ void exam_3(){
     }else{
         if (score >= 60){
             output("Congradulations! You pass the exam and get in the university!");cout << endl;
+            if (pressure > 80){
+                game_end = true;
+                ending = 4;
+            }else{
+                game_end = true;
+                ending = 3;
+            }
         }else{
             output("Your exam is failed");cout << endl;
             game_end = true;
-            ending = 6;
+            ending = 7;
         }
     }
     main_exam = false;
