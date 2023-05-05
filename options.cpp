@@ -17,7 +17,7 @@ void options_1(){
     cout << IQ;
     output("/200 Pressure: ");
     cout << pressure;
-    output("/100 Parents Satisfication: ");
+    output("/100 Parents Satisfaction: ");
     cout << parent_satisf;
     output("/100");
     cout << endl;
@@ -48,7 +48,7 @@ void options_2(){
     cout << IQ;
     output("/200 Pressure: ");
     cout << pressure;
-    output("/100 Parents Satisfication: ");
+    output("/100 Parents Satisfaction: ");
     cout << parent_satisf;
     output("/100");
     cout << endl;
@@ -95,7 +95,7 @@ void options_3(){
     cout << IQ;
     output("/200 Pressure: ");
     cout << pressure;
-    output("/100 Parents Satisfication: ");
+    output("/100 Parents Satisfaction: ");
     cout << parent_satisf;
     output("/100");
     cout << endl;
@@ -136,7 +136,7 @@ void options_3(){
         }
         cout << "Money +" << money - mm << endl;
         Delay(500);
-        cout << "Parent satisfication -" << p - parent_satisf << endl;
+        cout << "Parent satisfaction -" << p - parent_satisf << endl;
         Delay(500);
     }
 }
