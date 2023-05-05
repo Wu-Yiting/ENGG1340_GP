@@ -19,11 +19,11 @@ class question{
         string ans;
 };
 
-extern bool game_end,if_hobby,bob;
+extern bool game_end,if_hobby,bob,task;
 extern int ending,age,month;
 extern int game_stage;
 extern bool main_exam;
-extern int school_informs,money,erase;
+extern int school_informs,money,erase,task_r;
 extern int IQ,pressure,parent_satisf,unlucky,hobby_id,round,time1,hobby_value,mo,pare;
 extern question ques_1[],ques_2[],ques_3[];
 
