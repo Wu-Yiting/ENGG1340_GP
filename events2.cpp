@@ -16,7 +16,7 @@ void special_events(){
             if (ran == 1){
                 output("It's time for you to develop a hobby!(hobby may become your profession in the future)");cout<<endl;
                 output("You can only choose one hobby in this game, and the choice cannot change.");cout<<endl;
-                output("1.Drawing 2.Basketball 3.Computer game");cout<<endl;
+                output("1.Drawing 2.Basketball 3.Singing");cout<<endl;
                 hobby_id = inputting("123");
                 return;
             }
@@ -70,6 +70,8 @@ void special_events(){
     ran = rand() % 50;
     if ((not task) && (ran > 40 + unlucky)){
         task = true;
+        task_r = 8;
+        task_n = IQ;
         output("Your recieve a task from your teacher."); cout << endl;
         output("Teacher want you to make a plane model"); cout << endl;
         Delay(500);
@@ -134,7 +136,7 @@ void special_events(){
             cout << "1.Let's go, I love study!" << endl;
             cout << "2.Sorry, I want to rest." << endl;
             input = inputting("12");
-            if (input = 1){
+            if (input == 1){
                 output("You study with Tom until midnight."); cout << endl;
                 output("You learned a lot, but you fill really tired"); cout << endl;
                 IQ = IQ + 20;
@@ -167,8 +169,8 @@ void special_events(){
         cout << "Your money:" << money << endl;
         cout << "1.Erase (fix one of the mistake in your exam) 20$" << endl;
         cout << "2.Clock (increase 2s in your answering time) 50$" << endl;
-        if (hobby){
-            cout << "3.Skill book (Increase the skill of your hobby by 10) 20$" << endl;
+        if (if_hobby){
+            cout << "3.Skill book (Increase the skill of your hobby by 1(only when the hobby value < 9)) 20$" << endl;
         }
         cout << "4.Leave" << endl;
         while (true){
@@ -195,14 +197,17 @@ void special_events(){
                 }
             }
             if (input == 3){
-                if (money >= 20){
-                    hobby_value = hobby_value + 10;
+                if ((money >= 20) && (hobby_value < 9)){
+                    hobby_value = hobby_value + 1;
                     money = money - 20;
                     cout << "Money left:" << money << endl;
-                }else{
+                }else if (hobby_value < 9){
                     cout << "You don't have enough money." << endl;
+                }else{
+                    cout << "You can not get extra hobby value in the shop." << endl;
                 }
             }
+            Delay(500);
         }
     }
     if ((ran > 50) && (ran <= 60)){
@@ -224,7 +229,7 @@ void special_events(){
             Delay(500);
             cout << "Money +" << money - m << endl;
         }
-        if (input = 2){
+        if (input == 2){
             cout << "Your parents seems disappointed." << endl;
             parent_satisf = parent_satisf - 5;
             if (parent_satisf < 0){
@@ -255,12 +260,99 @@ void special_events(){
             }
         }
     }
-    if ((ran >= 80) && (ran <= 95)){
-        
-
+    if ((ran >= 80) && (ran <= 100)){
+        output("The school organize you to go hiking."); cout << endl;
+        output("During the trip, you choose:"); cout << endl;
+        cout << "1. Pick some flower and give to your mom as a present." << endl;
+        cout << "2. Take out the class book and study." << endl;
+        input = inputting("12");
+        if (input == 1){
+            output("Your mom is really happy."); cout << endl;
+            parent_satisf = parent_satisf + 30;
+            pressure = pressure - 15;
+            if (parent_satisf > 100){
+                parent_satisf = 100;
+            }
+            if (pressure < 0){
+                pressure = 0;
+            }
+            Delay(500);
+            cout << "Parent satisfaction +" << parent_satisf - pa << endl;
+            Delay(500);
+            cout << "Pressure -" << p - pressure << endl;
+            Delay(500);
+        }
+        if (input == 2){
+            output("It is not a wise choise."); cout << endl;
+            Delay(500);
+            pressure = pressure + 15;
+            if (pressure > 100){
+                pressure = 100;
+                game_end = true;
+                ending = 1;
+            }
+            IQ = IQ + 3;
+            if (IQ > 100){
+                IQ = 100;
+            }
+            cout << "IQ +" << IQ - ii << endl;
+            Delay(500);
+            cout << "Pressure -" << pressure - p << endl;
+            Delay(500);
+        }
     }
 }
 
 void hobby(){
-    
+    if (hobby_id == 1){
+        if (hobby_value < 9){
+            output("You practice the drawing, the hobby value increase."); cout << endl;
+            hobby_value = hobby_value + 1;
+            Delay(500);
+            cout << "Your hobby value: " << hobby_value << endl;
+            Delay(500);
+        }else{
+            output("You practice the drawing, the hobby value increase."); cout << endl;
+            hobby_value = hobby_value + 1;
+            Delay(500);
+            cout << "Your hobby value: " << hobby_value << endl;
+            Delay(500);
+            output("Now you become an expert in drawing!");
+            hobby_end = true;
+        }
+    }
+    if (hobby_id == 2){
+        if (hobby_value < 9){
+            output("You practice the basketball, the hobby value increase."); cout << endl;
+            hobby_value = hobby_value + 1;
+            Delay(500);
+            cout << "Your hobby value: " << hobby_value << endl;
+            Delay(500);
+        }else{
+            output("You practice the basketball, the hobby value increase."); cout << endl;
+            hobby_value = hobby_value + 1;
+            Delay(500);
+            cout << "Your hobby value: " << hobby_value << endl;
+            Delay(500);
+            output("Now you become master in basketball!");
+            hobby_end = true;
+        }
+    }
+    if (hobby_id == 3){
+        if (hobby_value < 9){
+            output("You practice the singing, the hobby value increase."); cout << endl;
+            hobby_value = hobby_value + 1;
+            Delay(500);
+            cout << "Your hobby value: " << hobby_value << endl;
+            Delay(500);
+        }else{
+            output("You practice the singing, the hobby value increase."); cout << endl;
+            hobby_value = hobby_value + 1;
+            Delay(500);
+            cout << "Your hobby value: " << hobby_value << endl;
+            Delay(500);
+            output("Now you become an expert in singing!");
+            hobby_end = true;
+        }
+    }
 }

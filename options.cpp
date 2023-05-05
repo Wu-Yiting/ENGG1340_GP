@@ -41,7 +41,7 @@ void options_2(){
     output(" Month: ");
     cout << month << endl;
     output("Options:");
-    cout << endl; 
+    cout << endl;
     output("1.Study 2.Rest 3.Special events 4.Hobby");
     cout << endl;
     output("Your IQ:");
@@ -58,6 +58,8 @@ void options_2(){
         if (input_2 == 4){
             if (not if_hobby){
                 cout << "You have not develop a hobby (You have chance to develop a hobby in 'special events')" << endl;
+            }else if (not hobby_end){
+                cout << "You hobby is full skilled" << endl;
             }else{
                 break;
             }
@@ -105,6 +107,8 @@ void options_3(){
         if (input_2 == 4){
             if (not if_hobby){
                 cout << "You have not develop a hobby (You have chance to develop a hobby in 'special events')" << endl;
+            }else if (hobby_end){
+                cout << "You hobby is full skilled" << endl;
             }else{
                 break;
             }

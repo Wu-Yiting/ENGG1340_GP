@@ -49,11 +49,11 @@ void game_ending(int ending){
         output_slow("The game is end."); cout << endl;
         output_slow("Ending number: 11"); cout << endl;
     }
-    if (ending == 12){//hobby: computer game end 1.
+    if (ending == 12){//hobby: singing end 1.
         output_slow("The game is end."); cout << endl;
         output_slow("Ending number: 12"); cout << endl;
     }
-    if (ending == 13){//hobby: computer game end 2.
+    if (ending == 13){//hobby: singing game end 2.
         output_slow("The game is end."); cout << endl;
         output_slow("Ending number: 13"); cout << endl;
     }
