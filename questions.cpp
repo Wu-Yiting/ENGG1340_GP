@@ -214,17 +214,17 @@ void initialize(){
     ques_3[3].Qs2 = "a.No   b.Yes   c.Nope   d.Noooo";
     ques_3[3].ans = "b";
 
-    ques_3[4].Qs1 = "";
-    ques_3[4].Qs2 = "";
-    ques_3[4].ans = "";
+    ques_3[4].Qs1 = "Evaluate (3 + 2i) - (8 - 5i)";
+    ques_3[4].Qs2 = "a.-5+7i   b.-5-3i   c.5+7i   d.-5+3i";
+    ques_3[4].ans = "a";
 
-    ques_3[5].Qs1 = "";
-    ques_3[5].Qs2 = "";
-    ques_3[5].ans = "";
+    ques_3[5].Qs1 = "Find the greatest common factor of the monomials 36x^2 and 42x^3";
+    ques_3[5].Qs2 = "a.6^2   b.36x^2   c.6x^3   d.6x^2";
+    ques_3[5].ans = "d";
 
-    ques_3[6].Qs1 = "";
-    ques_3[6].Qs2 = "";
-    ques_3[6].ans = "";
+    ques_3[6].Qs1 = "Which one is not a prerequisite of a fire?";
+    ques_3[6].Qs2 = "a.Oxygen   b.Heat   c.Nitrogen   d.Fuel";
+    ques_3[6].ans = "c";
 
     ques_3[7].Qs1 = "";
     ques_3[7].Qs2 = "";
