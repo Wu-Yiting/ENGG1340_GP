@@ -230,8 +230,8 @@ void initialize(){
     ques_3[7].Qs2 = "a.0.25Hz   b.4Hz   c.1.414Hz   d.2Hz";
     ques_3[7].ans = "b";
 
-    ques_3[8].Qs1 = "";
-    ques_3[8].Qs2 = "";
+    ques_3[8].Qs1 = "What is the national flower of USA?";
+    ques_3[8].Qs2 = "a.Rose   ";
     ques_3[8].ans = "";
 
     ques_3[9].Qs1 = "";
