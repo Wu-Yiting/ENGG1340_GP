@@ -60,7 +60,7 @@ void options_2(){
                 cout << "You have not develop a hobby (You have chance to develop a hobby in 'special events')" << endl;
                 Delay(200);
                 cout << "Please input again:" << endl;
-            }else if (not hobby_end){
+            }else if (hobby_end){
                 cout << "You hobby is full skilled" << endl;
             }else{
                 break;
