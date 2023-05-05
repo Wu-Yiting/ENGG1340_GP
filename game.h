@@ -26,6 +26,7 @@ extern bool main_exam;
 extern int school_informs,money,erase,task_r,task_n;
 extern int IQ,pressure,parent_satisf,unlucky,hobby_id,round,time1,hobby_value,mo,pare;
 extern question ques_1[],ques_2[],ques_3[];
+extern int list_1[];
 
 void startgame();
 void initialize();
@@ -45,6 +46,7 @@ void output_slow(string s);
 void rungame();
 void Delay(int n);
 int change_input(string input);
+void getnumber(int diffi);
 bool valid(string input,string a);
 int inputting(string ss);
 
