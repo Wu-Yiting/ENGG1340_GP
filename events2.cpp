@@ -265,7 +265,7 @@ void special_events(){
         }
     }
     if ((ran >= 60) && (ran < 80)){
-        output("You find 10$ on the road."); cout << endl;
+        output("You find 40$ on the road."); cout << endl;
         output("You choose:"); cout << endl;
         Delay(500);
         cout << "1.Give to the police." << endl;
@@ -278,6 +278,15 @@ void special_events(){
             if (unlucky < -5){
                 unlucky = -5;
             }
+        }
+        if (input == 2){
+            output("You take away the money.Your money +40$."); cout << endl;
+            unlucky = unlucky + 8;
+            if (unlucky > 10){
+                unlucky = 10;
+            }
+            money = money + 40;
+            output("Your 'Lucky'(hidden value) increased a lot"); cout << endl;
         }
     }
     if ((ran >= 80) && (ran <= 100)){
