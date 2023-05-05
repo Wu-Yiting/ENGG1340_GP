@@ -1,6 +1,5 @@
 #include <iostream>
 #include "game.h"
-using namespace std;
 using namespace chrono;
 
 void exam_1(){
@@ -16,7 +15,11 @@ void exam_1(){
     Delay(300);
     output_slow("The difficulty of the exam is determined by your IQ value.");cout<<endl;
     Delay(300);
-    output_slow("You can get into the middle school only if your score is higher than 60.");cout<<endl;
+    output_slow("You can get into the middle only if your score is higher than 60.");cout<<endl;
+    Delay(300);
+    output_slow("You will get 3 point for the correct answer and you will lose 1 point for the wrong answer.");cout << endl;
+    Delay(300);
+    output_slow("Your answering time is");cout << time1 << endl;output_slow("s, you will get 0 point of the time out question.");cout << endl;
     Delay(300);
     output_slow("Good luck! Enter 'Y' to start the exam.");cout<<endl;
     while (true){
@@ -46,7 +49,7 @@ void exam_1(){
             if (cin >> input_3){
                 auto stop = high_resolution_clock::now();
                 auto duration = duration_cast<milliseconds>(stop - start).count();
-                if (duration <= 5000){
+                if (duration <= (time1*1000)){
                     if (input_3 == ques_1[i].ans){
                         cout << "Correct! score + 3" << endl;
                         score = score + 3;
@@ -72,6 +75,13 @@ void exam_1(){
     }
     output("The exam is finished. Your score:");
     cout << score << endl;
+    if (score >= 60){
+        output("Congradulations! You pass the exam and get in the middle school!");cout << endl;
+    }else{
+        output("Your exam is failed");cout << endl;
+        game_end = true;
+        ending = 5;
+    }
     main_exam = false;
 }
 
@@ -88,7 +98,11 @@ void exam_2(){
     Delay(300);
     output_slow("The difficulty of the exam is determined by your IQ value.");cout<<endl;
     Delay(300);
-    output_slow("You can get into the high school only if your score is higher than 60.");cout<<endl;
+    output_slow("You can get into the high school only if your score is higher than 60. If your hobby value is full, 30 mark is enough, and the ending will be different.");cout<<endl;
+    Delay(300);
+    output_slow("You will get 3 point for the correct answer and you will lose 1 point for the wrong answer.");cout << endl;
+    Delay(300);
+    output_slow("Your answering time is");cout << time1 << endl;output_slow("s, you will get 0 point of the time out question.");cout << endl;
     Delay(300);
     output_slow("Good luck! Enter 'Y' to start the exam.");cout<<endl;
     while (true){
@@ -118,7 +132,7 @@ void exam_2(){
             if (cin >> input_3){
                 auto stop = high_resolution_clock::now();
                 auto duration = duration_cast<milliseconds>(stop - start).count();
-                if (duration <= 5000){
+                if (duration <= (time1*1000)){
                     if (input_3 == ques_2[i].ans){
                         cout << "Correct! score + 3" << endl;
                         score = score + 3;
@@ -144,6 +158,23 @@ void exam_2(){
     }
     output("The exam is finished. Your score:");
     cout << score << endl;
+    if (hobby_end){
+        if (score >= 30){
+            output("Congradulations! You pass the exam and get in the high school!");cout << endl;
+        }else{
+            output("Your exam is failed");cout << endl;
+            game_end = true;
+            ending = 9 + (hobby_id-1) * 2;
+        }
+    }else{
+        if (score >= 60){
+            output("Congradulations! You pass the exam and get in the high school!");cout << endl;
+        }else{
+            output("Your exam is failed");cout << endl;
+            game_end = true;
+            ending = 6;
+        }
+    }
     main_exam = false;
 }
 
@@ -160,7 +191,11 @@ void exam_3(){
     Delay(300);
     output_slow("The difficulty of the exam is determined by your IQ value.");cout<<endl;
     Delay(300);
-    output_slow("You can get into the university only if your score is higher than 60.");cout<<endl;
+    output_slow("You can get into the university only if your score is higher than 60. If your hobby value is full, 30 mark is enough, and the ending will be different.");cout<<endl;
+    Delay(300);
+    output_slow("You will get 3 point for the correct answer and you will lose 1 point for the wrong answer.");cout << endl;
+    Delay(300);
+    output_slow("Your answering time is");cout << time1 << endl;output_slow("s, you will get 0 point of the time out question.");cout << endl;
     Delay(300);
     output_slow("Good luck! Enter 'Y' to start the exam.");cout<<endl;
     while (true){
@@ -190,7 +225,7 @@ void exam_3(){
             if (cin >> input_3){
                 auto stop = high_resolution_clock::now();
                 auto duration = duration_cast<milliseconds>(stop - start).count();
-                if (duration <= 5000){
+                if (duration <= (time1*1000)){
                     if (input_3 == ques_3[i].ans){
                         cout << "Correct! score + 3" << endl;
                         score = score + 3;
@@ -216,5 +251,24 @@ void exam_3(){
     }
     output("The exam is finished. Your score:");
     cout << score << endl;
+    if (hobby_end){
+        if (score >= 30){
+            output("Congradulations! You pass the exam and get in the university!");cout << endl;
+            game_end = true;
+            ending = 8 + (hobby_id-1) * 2;
+        }else{
+            output("Your exam is failed");cout << endl;
+            game_end = true;
+            ending = 9 + (hobby_id-1) * 2;
+        }
+    }else{
+        if (score >= 60){
+            output("Congradulations! You pass the exam and get in the university!");cout << endl;
+        }else{
+            output("Your exam is failed");cout << endl;
+            game_end = true;
+            ending = 6;
+        }
+    }
     main_exam = false;
 }
