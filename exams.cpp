@@ -16,11 +16,11 @@ void exam_1(){
     Delay(300);
     output_slow("The difficulty of the exam is determined by your IQ value.");cout<<endl;
     Delay(300);
-    output_slow("You can get into the middle only if your score is higher than 60.");cout<<endl;
+    output_slow("You can get into the middle school only if your score is higher than 60.");cout<<endl;
     Delay(300);
     output_slow("You will get 3 point for the correct answer and you will lose 1 point for the wrong answer.");cout << endl;
     Delay(300);
-    output_slow("Your answering time is");cout << time1;output_slow("s, you will get 0 point of the time out question.");cout << endl;
+    output_slow("Your answering time is ");cout << time1;output_slow("s, you will get 0 point of the time out question.");cout << endl;
     Delay(300);
     output_slow("Good luck! Enter 'Y' to start the exam.");cout<<endl;
     while (true){
@@ -30,18 +30,21 @@ void exam_1(){
         }
         cout << "Invalid input, please try angain!" << endl;
     }
-    if ((IQ>=0) && (IQ<15)){
-        diffi = 4;
-    }else if ((IQ>=15) && (IQ<30)){
-        diffi = 3;
-    }else if ((IQ>=30) && (IQ<45)){
-        diffi = 2;
-    }else if ((IQ>=45)){
-        diffi = 1;
-    }
-    getnumber(diffi);
+    
     for (int i=0; i<10; i++){
-        number = list_1[i];
+        if ((IQ>=0) && (IQ<15)){
+            diffi = 4;
+            number = list_4[i];
+        }else if ((IQ>=15) && (IQ<30)){
+            diffi = 3;
+            number = list_3[i];
+        }else if ((IQ>=30) && (IQ<45)){
+            diffi = 2;
+            number = list_2[i];
+        }else{
+            diffi = 1;
+            number = list_1[i];
+        }
         cout << endl <<  "==========================" << endl;
         output(ques_1[number].Qs1);cout<<endl;
         output(ques_1[number].Qs2);cout<<endl;
@@ -51,7 +54,7 @@ void exam_1(){
                 auto stop = high_resolution_clock::now();
                 auto duration = duration_cast<milliseconds>(stop - start).count();
                 if (duration <= (time1*1000)){
-                    if (input_3 == ques_1[i].ans){
+                    if (input_3 == ques_1[number].ans){
                         cout << "Correct! score + 3" << endl;
                         score = score + 3;
                         Delay(500);
@@ -65,7 +68,7 @@ void exam_1(){
                         Delay(500);
                     }
                 }else{
-                    cout << "Too late. score + 1" << endl;
+                    cout << "Too late. score + 0" << endl;
                     Delay(500);
                     cout << "Time you take:" << fixed << setprecision(2) << static_cast<double>(duration) / 1000 << endl;
                     Delay(500);
@@ -90,6 +93,7 @@ void exam_2(){
     string input_3;
     int number,score;
     int diffi=4;
+    int list_1[10];
     score = 0;
     cout << "===========================" << endl;
     Delay(300);
@@ -103,7 +107,7 @@ void exam_2(){
     Delay(300);
     output_slow("You will get 3 point for the correct answer and you will lose 1 point for the wrong answer.");cout << endl;
     Delay(300);
-    output_slow("Your answering time is");cout << time1;output_slow("s, you will get 0 point of the time out question.");cout << endl;
+    output_slow("Your answering time is ");cout << time1;output_slow("s, you will get 0 point of the time out question.");cout << endl;
     Delay(300);
     output_slow("Good luck! Enter 'Y' to start the exam.");cout<<endl;
     while (true){
@@ -113,18 +117,20 @@ void exam_2(){
         }
         cout << "Invalid input, please try angain!" << endl;
     }
-    if (IQ<75){
-        diffi = 4;
-    }else if ((IQ>=75) && (IQ<90)){
-        diffi = 3;
-    }else if ((IQ>=90) && (IQ<105)){
-        diffi = 2;
-    }else if ((IQ>=105)){
-        diffi = 1;
-    }
-    getnumber(diffi);
     for (int i=0; i<10; i++){
-        number = list_1[i];
+        if ((IQ>=0) && (IQ<15)){
+            diffi = 4;
+            number = list_4[i];
+        }else if ((IQ>=15) && (IQ<30)){
+            diffi = 3;
+            number = list_3[i];
+        }else if ((IQ>=30) && (IQ<45)){
+            diffi = 2;
+            number = list_2[i];
+        }else{
+            diffi = 1;
+            number = list_1[i];
+        }
         cout << endl <<  "==========================" << endl;
         output(ques_2[number].Qs1);cout<<endl;
         output(ques_2[number].Qs2);cout<<endl;
@@ -134,7 +140,7 @@ void exam_2(){
                 auto stop = high_resolution_clock::now();
                 auto duration = duration_cast<milliseconds>(stop - start).count();
                 if (duration <= (time1*1000)){
-                    if (input_3 == ques_2[i].ans){
+                    if (input_3 == ques_2[number].ans){
                         cout << "Correct! score + 3" << endl;
                         score = score + 3;
                         Delay(500);
@@ -148,7 +154,7 @@ void exam_2(){
                         Delay(500);
                     }
                 }else{
-                    cout << "Too late. score + 1" << endl;
+                    cout << "Too late. score + 0" << endl;
                     Delay(500);
                     cout << "Time you take:" << fixed << setprecision(2) << static_cast<double>(duration) / 1000 << endl;
                     Delay(500);
@@ -183,6 +189,7 @@ void exam_3(){
     string input_3;
     int number,score;
     int diffi=4;
+    int list_1[10];
     score = 0;
     cout << "===========================" << endl;
     Delay(300);
@@ -196,7 +203,7 @@ void exam_3(){
     Delay(300);
     output_slow("You will get 3 point for the correct answer and you will lose 1 point for the wrong answer.");cout << endl;
     Delay(300);
-    output_slow("Your answering time is");cout << time1;output_slow("s, you will get 0 point of the time out question.");cout << endl;
+    output_slow("Your answering time is ");cout << time1;output_slow("s, you will get 0 point of the time out question.");cout << endl;
     Delay(300);
     output_slow("Good luck! Enter 'Y' to start the exam.");cout<<endl;
     while (true){
@@ -206,18 +213,20 @@ void exam_3(){
         }
         cout << "Invalid input, please try angain!" << endl;
     }
-    if (IQ<135){
-        diffi = 4;
-    }else if ((IQ>=135) && (IQ<150)){
-        diffi = 3;
-    }else if ((IQ>=150) && (IQ<165)){
-        diffi = 2;
-    }else if ((IQ>=165)){
-        diffi = 1;
-    }
-    getnumber(diffi);
     for (int i=0; i<10; i++){
-        number = list_1[i];
+        if ((IQ>=0) && (IQ<15)){
+            diffi = 4;
+            number = list_4[i];
+        }else if ((IQ>=15) && (IQ<30)){
+            diffi = 3;
+            number = list_3[i];
+        }else if ((IQ>=30) && (IQ<45)){
+            diffi = 2;
+            number = list_2[i];
+        }else{
+            diffi = 1;
+            number = list_1[i];
+        }
         cout << endl <<  "==========================" << endl;
         output(ques_3[number].Qs1);cout<<endl;
         output(ques_3[number].Qs2);cout<<endl;
@@ -227,7 +236,7 @@ void exam_3(){
                 auto stop = high_resolution_clock::now();
                 auto duration = duration_cast<milliseconds>(stop - start).count();
                 if (duration <= (time1*1000)){
-                    if (input_3 == ques_3[i].ans){
+                    if (input_3 == ques_3[number].ans){
                         cout << "Correct! score + 3" << endl;
                         score = score + 3;
                         Delay(500);
@@ -241,7 +250,7 @@ void exam_3(){
                         Delay(500);
                     }
                 }else{
-                    cout << "Too late. score + 1" << endl;
+                    cout << "Too late. score + 0" << endl;
                     Delay(500);
                     cout << "Time you take:" << fixed << setprecision(2) << static_cast<double>(duration) / 1000 << endl;
                     Delay(500);
