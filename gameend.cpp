@@ -7,6 +7,7 @@ void game_ending(int ending){
     Delay(300);
     if (ending == 1){
         output_slow("The game is end."); cout << endl;
+        output_slow("Your pressure is full."); cout << endl;
         output_slow("Ending number: 1"); cout << endl;
         output_slow("Dear friend,I understand that you have been suffering from depression due to accumulated stress."); cout << endl;
         output_slow("While education is important, it is not the only pursuit in our lives. We all know that a healthy mind and body are crucial to our quality of life. "); cout << endl;
@@ -22,6 +23,7 @@ void game_ending(int ending){
     }
     if (ending == 2){
         output_slow("The game is end."); cout << endl;
+        output_slow("You parent satisfaction is zero."); cout << endl;
         output_slow("Ending number: 2"); cout << endl;
         output_slow("Dear child,I have heard about your confusion and conflicts, and I would like to offer you some advice and encouragement."); cout << endl;
         output_slow("First of all, please remember that everyone has their limitations, and no one can meet others' expectations perfectly. Even your parents cannot expect you to be perfect in everything, and you do not need to blame yourself excessively for this."); cout << endl;
