@@ -104,7 +104,7 @@ void game_ending(int ending){
         output_slow("Believe in your potential and value, face future challenges bravely, and constantly pursue excellence."); cout << endl;
         output_slow("I wish you a long and successful journey in life and the realization of your dreams!!!"); cout << endl;
     }
-    }
+    
     if (ending == 7){//the high school final exam is failed.
         output_slow("The game is end."); cout << endl;
         output_slow("Ending number: 7"); cout << endl;
@@ -124,7 +124,7 @@ void game_ending(int ending){
         output_slow("Believe in your potential and value, face future challenges bravely, and constantly pursue excellence."); cout << endl;
         output_slow("I wish you a long and successful journey in life and the realization of your dreams!!!"); cout << endl;
     }
-    }
+    
     if (ending == 8){//hobby: drawing end 1. 你以你画画的特长，顺利进入名列前茅的世界美院....
         output_slow("The game is end."); cout << endl;
         output_slow("Ending number: 8"); cout << endl;
