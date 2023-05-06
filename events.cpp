@@ -44,8 +44,8 @@ void rest(){
         }
         seed1 = (rand() % 4) + 1;
         IQ = IQ + seed1;
-        if (IQ > 100){
-            IQ = 100;
+        if (IQ > 200){
+            IQ = 200;
         }
     }
     else if ((seed < (75+unlucky)) && (seed > (10+unlucky))){
