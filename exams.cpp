@@ -102,7 +102,6 @@ void exam_2(){
     string input_3;
     int number,score;
     int diffi=4;
-    int list_1[10];
     double score1;
     score = 0;
     cout << "===========================" << endl;
@@ -208,7 +207,6 @@ void exam_3(){
     string input_3;
     int number,score;
     int diffi=4;
-    int list_1[10];
     double score1;
     score = 0;
     cout << "===========================" << endl;
