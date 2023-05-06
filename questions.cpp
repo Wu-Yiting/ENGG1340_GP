@@ -6,7 +6,7 @@ question ques_1[100];
 question ques_2[100];
 question ques_3[100];
 
-void initialize(){
+void initialize(){// initialize the question.
     //ques_1 are for primary school.
     ques_1[0].Qs1 = "1+1 = ?";
     ques_1[0].Qs2 = "a.2   b.3   c.200  d.1340";
