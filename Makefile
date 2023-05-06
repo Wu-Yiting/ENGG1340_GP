@@ -3,6 +3,7 @@ events.o: events.cpp game.h
 
 main.o: main.cpp game.h
 	g++ -pedantic-errors -std=c++11 -c $<
+
 options.o: options.cpp game.h
 	g++ -pedantic-errors -std=c++11 -c $<
 
