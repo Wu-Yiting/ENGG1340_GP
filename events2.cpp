@@ -321,8 +321,8 @@ void special_events(){
                 ending = 1;
             }
             IQ = IQ + 3;
-            if (IQ > 100){
-                IQ = 100;
+            if (IQ > 200){
+                IQ = 200;
             }
             cout << "IQ +" << IQ - ii << endl;
             Delay(500);
