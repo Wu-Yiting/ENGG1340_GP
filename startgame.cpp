@@ -3,7 +3,7 @@
 
 using namespace std;
 
-void startgame(){
+void startgame(){//the game start ui
     string input_1;   
     cout<<R"(   _____      _     _       _)" <<endl;                                   
     cout<<R"(  / ____|    | |   (_)     | |)" <<endl;                                  

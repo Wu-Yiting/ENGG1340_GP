@@ -3,7 +3,7 @@
 using namespace std;
 using namespace chrono;
 
-void exam_1(){
+void exam_1(){// the exam for primary shcool
     string input_3;
     int number,score;
     int diffi=4;
@@ -98,7 +98,7 @@ void exam_1(){
     main_exam = false;
 }
 
-void exam_2(){
+void exam_2(){// the exam for middle school
     string input_3;
     int number,score;
     int diffi=4;
@@ -203,7 +203,7 @@ void exam_2(){
     main_exam = false;
 }
 
-void exam_3(){
+void exam_3(){//the exam for high school
     string input_3;
     int number,score;
     int diffi=4;

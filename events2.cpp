@@ -2,7 +2,7 @@
 #include "game.h"
 using namespace std;
 
-void special_events(){
+void special_events(){//random events
     int ran,input,ran1;
     int ii,p,pa,m;
     ii = IQ;
@@ -332,7 +332,7 @@ void special_events(){
     }
 }
 
-void hobby(){
+void hobby(){//the events with your hobby
     if (hobby_id == 1){
         if (hobby_value < 9){
             output("You practice the drawing, the hobby value increase."); cout << endl;
