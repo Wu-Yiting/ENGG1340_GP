@@ -155,7 +155,11 @@ void initialize(){
 
     ques_2[12].Qs1 = "Which one is not one of the Four Ancient Civilizations?";
     ques_2[12].Qs2 = "a.Egypt   b.the Indus valley   c.Ancient China   d.Ancient Greece";
-    ques_2[13].ans = "d";
+    ques_2[12].ans = "d";
+
+    ques_2[13].Qs1 = "3*3 + 2*2 + 1 = ?";
+    ques_2[13].Qs2 = "a.14   b.13   c.12   d.11";
+    ques_2[13].ans = "a";
 
     ques_2[14].Qs1 = "12*24 = ?";
     ques_2[14].Qs2 = "a.144   b.188   c.244   d.288";
