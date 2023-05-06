@@ -64,7 +64,7 @@ void initialize(){
     ques_1[13].Qs2 = "a.0 degree Celsius   b. 100 degree Fahrenheit   c.100 Celsius degree   d.0 degree Fahrenheit";
     ques_1[13].ans = "c";
 
-    ques_1[14].Qs1 = "What is most symbolic in the Trojan War?";
+    ques_1[14].Qs1 = "What is most symbolic in the Trojan War(特洛伊战争)?";
     ques_1[14].Qs2 = "a.Mirrors   b.Stone throwers   c.Wooden horse   d.Indians";
     ques_1[14].ans = "c";
 
@@ -185,7 +185,7 @@ void initialize(){
     ques_2[20].Qs2 = "a.35/6   b.120/7   c.6/35   d.4.83";
     ques_2[20].ans = "a";
 
-    ques_2[21].Qs1 = "How long does it approximately takes for a ball with zero initial velocity to fall 5 meters?";
+    ques_2[21].Qs1 = "How long does it take for a ball with zero initial velocity to fall 5 meters?";
     ques_2[21].Qs2 = "a. 1 second   b. 0.5 second   c. 2 seconds   d. 0.2 second";
     ques_2[21].ans = "a";
 
@@ -242,25 +242,25 @@ void initialize(){
     ques_3[10].Qs2 = "a.5   b.120   c.24   d.720";
     ques_3[10].ans = "b";
 
-    ques_3[11].Qs1 = "How many kinds of Quarks are there in total?";
+    ques_3[11].Qs1 = "How many kinds of Quarks(夸克) are there in total?";
     ques_3[11].Qs2 = "a.4   b.5   c.6   d.7";
     ques_3[11].ans = "c";
 
-    ques_3[12].Qs1 = "What is Avogadro constant?";
+    ques_3[12].Qs1 = "What is Avogadro constant(阿伏伽德罗常数)?";
     ques_3[12].Qs2 = "a.6.02*10^13   b.2.06*10^23   c.6.02*10^23   d. 2.06*10^13";
     ques_3[12].ans = "c";
 
-    ques_3[13].Qs1 = "";
-    ques_3[13].Qs2 = "";
-    ques_3[13].ans = "";
+    ques_3[13].Qs1 = "321-123 = ?";
+    ques_3[13].Qs2 = "a.198   b.54   c.188   d.100";
+    ques_3[13].ans = "a";
 
-    ques_3[14].Qs1 = "";
-    ques_3[14].Qs2 = "";
-    ques_3[14].ans = "";
+    ques_3[14].Qs1 = "What can we use to compile a c++ program?";
+    ques_3[14].Qs2 = "a.Minecraft   b.g++   c.cmd   d.ENGG1340";
+    ques_3[14].ans = "b";
 
-    ques_3[15].Qs1 = "";
-    ques_3[15].Qs2 = "";
-    ques_3[15].ans = "";
+    ques_3[15].Qs1 = "electrical circuit's resistance drop significantly than that of its normal condition. What is this called?";
+    ques_3[15].Qs2 = "a.Short Circuit   b.Closed Circuit   c.Series   d.Parallel";
+    ques_3[15].ans = "a";
 
     ques_3[16].Qs1 = "All semiconductors in their last orbit have";
     ques_3[16].Qs2 = "a.8 electrons   b.2 electrons   c.4 electrons   d.6 electrons";
@@ -270,12 +270,12 @@ void initialize(){
     ques_3[17].Qs2 = "a.P-type semiconductors   b.N-type semiconductors   c.Insulators   d.Superconductors";
     ques_3[17].ans = "a";
 
-    ques_3[18].Qs1 = "How many protons does 13C has?";
+    ques_3[18].Qs1 = "How many protons(质子) does 13C has?";
     ques_3[18].Qs2 = "a.13   b.6   c.8   d.3";
     ques_3[18].ans = "b";
 
-    ques_3[19].Qs1 = "A new recipe contains 33percent less sodium than the old one. The old one contained x milligrams of sodium. Which expressions could represent the amount of sodium in the new recipe?";
-    ques_3[19].Qs2 = "a.0.67x   b.x-33x   c.0.33x   d.x-33";
+    ques_3[19].Qs1 = "5C2(five choose two) = ?";
+    ques_3[19].Qs2 = "a.10   b.20   c.40   d.5";
     ques_3[19].ans = "a";
 
     ques_3[20].Qs1 = "n-type semiconductor is an example of";
@@ -294,7 +294,7 @@ void initialize(){
     ques_3[23].Qs2 = "a.England   b.USA   c.Russia   d.Austria";
     ques_3[23].ans = "c";
 
-    ques_3[24].Qs1 = "The immediate cause for World War One is?";
-    ques_3[24].Qs2 = "a.The assassination of Archduke Francis Ferdinand    b.The imprisonment of Lenin   c.The ambition of America to dominate the world   d.The sudden death of Lloyd George";
+    ques_3[24].Qs1 = "The immediate cause of World War One is?";
+    ques_3[24].Qs2 = "a.The assassination of Archduke Francis Ferdinand(斐迪南大公)    b.The imprisonment of Lenin(列宁)   c.US's ambition to dominate the world   d.The sudden death of Lloyd George (劳合 乔治)";
     ques_3[24].ans = "a";
     }
