@@ -20,7 +20,7 @@ void startgame(){
     cout <<"   ╚═╝   ╚═╝  ╚═╝╚══════╝     ╚═════╝ ╚═╝  ╚═══╝╚═╝  ╚═══╝  ╚══════╝╚═╝  ╚═╝╚══════╝╚═╝   ╚═╝      ╚═╝"<<endl;   
                                                                                                          
     cout << "=======================================" << endl;
-    output_slow("Welcome to the game 'Get into the university!");cout << endl;
+    output_slow("Welcome to the game 'Get into the university!'");cout << endl;
     output_slow("In this game, you will act as a student who want to get into the university.");cout << endl;
     output_slow("Your lifetime will start from the primary school.");cout << endl;
     output_slow("The game is turn-based, each turn you will have 3 choice (or more when you grow up).");cout << endl;
