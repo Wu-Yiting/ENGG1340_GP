@@ -9,3 +9,4 @@ IQ will determine the difficulty of the test at each stage.
 The pressure will affect the occurrence probability of special events. If your pressure reaches the maximum, you will fail the game.
 Parents’ satisfaction is similar to the pressure; you will also lose if this value reaches the maximum.
 Remember, every single choice you make will affect the ending.
+The game has 13 different endings.
