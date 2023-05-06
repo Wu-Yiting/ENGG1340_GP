@@ -5,7 +5,7 @@ using namespace std;
 void game_ending(int ending){
     cout << "=======================" << endl;
     Delay(300);
-    if (ending == 1){//pressure is full.你由于过大的压力，得了抑郁症，暂停了学业，....， ，人生不只有大学，.....
+    if (ending == 1){
         output_slow("The game is end."); cout << endl;
         output_slow("Ending number: 1"); cout << endl;
         output_slow("Dear friend,I understand that you have been suffering from depression due to accumulated stress."); cout << endl;
@@ -20,7 +20,7 @@ void game_ending(int ending){
         output_slow("You have many strengths and talents, and your future is full of infinite possibilities."); cout << endl;
         output_slow("I wish you a speedy recovery to health and happiness."); cout << endl;
     }
-    if (ending == 2){//parent satisfacation is zero.你和父母闹了矛盾，离家出走 ....
+    if (ending == 2){
         output_slow("The game is end."); cout << endl;
         output_slow("Ending number: 2"); cout << endl;
         output_slow("Dear child,I have heard about your confusion and conflicts, and I would like to offer you some advice and encouragement."); cout << endl;
@@ -35,7 +35,7 @@ void game_ending(int ending){
         output_slow("Please cherish your relationship with your family and believe that they will understand and support your growth."); cout << endl;
         output_slow("Take the first step bravely to solve the problem, and may you find inner peace and confidence soon."); cout << endl;
     }
-    if (ending == 3){//get into the university with low pressure.你轻松进了大学，在大学里你的成绩也很优异，毕业后你成为了....
+    if (ending == 3){
         output_slow("The game is end."); cout << endl;
         output_slow("Ending number: 3"); cout << endl;
         output_slow("\"Mr/Mrs. success\", you get into your dream university with ease. On your journey, everything worked just as you wish."); cout << endl;
@@ -51,7 +51,7 @@ void game_ending(int ending){
         output_slow("Can you deal with pressure effectively when you have to?"); cout << endl;
         output_slow("Only time can tell whether your strangely lucky life journey is a blessing or a curse."); cout << endl;
     }
-    if (ending == 4){//get into the university with high pressure.你进了大学，在大学里，面对别人的竞争，压力不减，由于你过分要求自己，身体健康出了问题...最后你认清了....
+    if (ending == 4){
         output_slow("The game is end."); cout << endl;
         output_slow("Ending number: 4"); cout << endl;
         output_slow("You fianlly got into the university!"); cout << endl;
@@ -66,7 +66,7 @@ void game_ending(int ending){
         output_slow("Cherish this important wealth and take responsibility for your physical and mental health."); cout << endl;
         output_slow("May you take care of your physical and mental health while pursuing excellence!!!"); cout << endl;
     }
-    if (ending == 5){//the primary school final exam is failed.
+    if (ending == 5){
         output_slow("The game is end."); cout << endl;
         output_slow("Ending number: 5"); cout << endl;
         output_slow("Unfortunately, you failed the primary school final exam!!"); cout << endl;
@@ -85,7 +85,7 @@ void game_ending(int ending){
         output_slow("Believe in your potential and value, face future challenges bravely, and constantly pursue excellence."); cout << endl;
         output_slow("I wish you a long and successful journey in life and the realization of your dreams!!!"); cout << endl;
     }
-    if (ending == 6){//the middle school final exam is failed.
+    if (ending == 6){
         output_slow("The game is end."); cout << endl;
         output_slow("Ending number: 6"); cout << endl;
         output_slow("Unfortunately, you failed the middle school final exam!!"); cout << endl;
@@ -105,7 +105,7 @@ void game_ending(int ending){
         output_slow("I wish you a long and successful journey in life and the realization of your dreams!!!"); cout << endl;
     }
     
-    if (ending == 7){//the high school final exam is failed.
+    if (ending == 7){
         output_slow("The game is end."); cout << endl;
         output_slow("Ending number: 7"); cout << endl;
         output_slow("Unfortunately, you failed the high school final exam!!"); cout << endl;
@@ -125,7 +125,7 @@ void game_ending(int ending){
         output_slow("I wish you a long and successful journey in life and the realization of your dreams!!!"); cout << endl;
     }
     
-    if (ending == 8){//hobby: drawing end 1. 你以你画画的特长，顺利进入名列前茅的世界美院....
+    if (ending == 8){
         output_slow("The game is end."); cout << endl;
         output_slow("Ending number: 8"); cout << endl;
         output_slow("Congratulations on successfully entering one of the world's top art schools with your talent and hard work!!!"); cout << endl;
@@ -143,7 +143,7 @@ void game_ending(int ending){
         output_slow("Please believe that through your efforts and persistence, you will definitely achieve outstanding achievements in the field of art."); cout << endl;
         output_slow("I wish you all the best in your studies and life at the art school, constantly breaking through your limits and achieving higher artistic pursuits!"); cout << endl;
     }
-    if (ending == 9){//hobby: drawing end 2. 你最终没有考上大学，但是凭借你画画的本领.....
+    if (ending == 9){
         output_slow("The game is end."); cout << endl;
         output_slow("Ending number: 9"); cout << endl;
         output_slow("First of all, I would like to congratulate you on finding your place in this competitive society through your talent and hard work."); cout << endl;
@@ -158,7 +158,7 @@ void game_ending(int ending){
         output_slow("Please believe that your talent and hard work will enable you to achieve higher achievements in the field of art."); cout << endl;
         output_slow("I wish you a long way in the painting road, creating more stunning works that amaze the world!!!"); cout << endl;
     }
-    if (ending == 10){//hobby: basketball end 1. 你因过人的篮球技术，被大学破格录取.....
+    if (ending == 10){
         output_slow("The game is end."); cout << endl;
         output_slow("Ending number: 10"); cout << endl;
         output_slow("First of all, I would like to congratulate you on your outstanding basketball skills that have earned you the opportunity to enter college!!!"); cout << endl;
@@ -175,7 +175,7 @@ void game_ending(int ending){
         output_slow("Your basketball skills have earned you this valuable opportunity, but this is only the beginning of your life journey."); cout << endl;
         output_slow("I wish you greater achievements in your college basketball career and more possibilities for your future!"); cout << endl;
     }
-    if (ending == 11){//hobby: basketball end 2. 你最终没有考上大学，但是凭借你篮球的本领最终成为了偶像练习生....
+    if (ending == 11){
         output_slow("The game is end."); cout << endl;
         output_slow("Ending number: 11"); cout << endl;
         output_slow("First of all, I want to extol your pride. Although you didn't make it to college, with your outstanding basketball skills, you eventually became an idol trainee and successfully attained your dream!!!"); cout << endl;
@@ -194,7 +194,7 @@ void game_ending(int ending){
         output_slow("Wishing you the best of luck in your entertainment career, daring to pursue your dreams, and bringing more positive energy to the world!"); cout << endl;
         
     }
-    if (ending == 12){//hobby: singing end 1. 你以唱歌特长.....
+    if (ending == 12){
         output_slow("The game is end."); cout << endl;
         output_slow("Ending number: 12"); cout << endl;
         output_slow("I know you have been deeply passionate about music and shown an extraordinary talent in sing."); cout << endl;
@@ -212,7 +212,7 @@ void game_ending(int ending){
         output_slow("Remember that I am always here to cheer you on and support your musical dreams."); cout << endl;
         output_slow("I believe that as long as you dare to pursue your dreams bravely!!! "); cout << endl;
     }
-    if (ending == 13){//hobby: singing game end 2. 你最终没有考上大学，但是凭借你.....
+    if (ending == 13){
         output_slow("The game is end."); cout << endl;
         output_slow("Ending number: 13"); cout << endl;
         output_slow("Unfortunately, you failed the exam!!"); cout << endl;
