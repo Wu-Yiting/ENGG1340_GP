@@ -38,17 +38,18 @@ void game_ending(int ending){
     if (ending == 3){//get into the university with low pressure.你轻松进了大学，在大学里你的成绩也很优异，毕业后你成为了....
         output_slow("The game is end."); cout << endl;
         output_slow("Ending number: 3"); cout << endl;
-        output_slow(""); cout << endl;
-        output_slow(""); cout << endl;
-        output_slow(""); cout << endl;
-        output_slow(""); cout << endl;
-        output_slow(""); cout << endl;
-        output_slow(""); cout << endl;
-        output_slow(""); cout << endl;
-        output_slow(""); cout << endl;
-        output_slow(""); cout << endl;
-        output_slow(""); cout << endl;
-        output_slow(""); cout << endl;
+        output_slow("\"Mr/Mrs. success\", you get into your dream university with ease. On your journey, everything worked just as you wish."); cout << endl;
+        output_slow("You had a very smooth, colourful and happy childhood and teenage years, and you realised your dream now."); cout << endl;
+        output_slow("In the university, you keep working hard, make friends and get execllent scores. Even if unluckly things happen, your good luck always save you."); cout << endl;
+        output_slow("After your unbelievably smooth university life, you get a very good intership in Microsoft ------ your dream working place."); cout << endl;
+        output_slow("1 year later, you sign a formal work contract with Microsoft, and become an engineer there."); cout << endl;
+        output_slow("The manager discovers your talent and give you important projects. You always finish your work satisfactorily."); cout << endl;
+        output_slow("You get pay raises almost every year, and you climb up the job ladder incredibly fast."); cout << endl;
+        output_slow("\"This is life!\", you say to yourself, \"Life is full of flowers and success!\""); cout << endl;
+        output_slow("But people can run out of luck, eventually. Remember, \"Shit happens\"."); cout << endl;
+        output_slow("Have your smooth life journey taught you how to handle bad luck and unsatisfactory?"); cout << endl;
+        output_slow("Can you deal with pressure effectively when you have to?"); cout << endl;
+        output_slow("Only time can tell whether your strangely lucky life journey is a blessing or a curse."); cout << endl;
     }
     if (ending == 4){//get into the university with high pressure.你进了大学，在大学里，面对别人的竞争，压力不减，由于你过分要求自己，身体健康出了问题...最后你认清了....
         output_slow("The game is end."); cout << endl;
